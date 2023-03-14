@@ -14,38 +14,26 @@
  * }
  */
 class Solution {
+    int sum = 0;
+    
     public int sumNumbers(TreeNode root) {
-        int sum = 0;
-        List<String> routes = digIn(root);
-        for(String route : routes){
-            sum += Integer.parseInt(route);
-        }
         
+        digIn(root, "");
         return sum;
     }
     
-    private List<String> digIn(TreeNode currNode){
-        List<String> routes = new ArrayList<String>();
-        
+    private void digIn(TreeNode currNode, String currStr){
         if(currNode.left == null && currNode.right == null){
-            routes.add("" + currNode.val);
-            return routes;
+            sum += Integer.parseInt(currStr + currNode.val);
+            return;
         }
         if(currNode.left != null){
-            List<String> temp = digIn(currNode.left);
-            temp = temp.stream()
-                .map(route->"" + currNode.val+route)
-                .collect(Collectors.toList());
-            routes.addAll(temp);
+            digIn(currNode.left, currStr + currNode.val);
         }
         if(currNode.right != null){
-            List<String> temp = digIn(currNode.right);
-            temp = temp.stream()
-                .map(route->"" + currNode.val+route)
-                .collect(Collectors.toList());
-            routes.addAll(temp);
+            digIn(currNode.right, currStr + currNode.val);
         }
         
-        return routes;
+        return;
     }
 }
