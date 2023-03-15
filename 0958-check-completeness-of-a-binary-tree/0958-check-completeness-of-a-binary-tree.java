@@ -24,14 +24,14 @@ class Solution {
         queue.add(root);
         while(!queue.isEmpty()){
             TreeNode currNode = queue.poll();
-            if(isNull && (currNode.left != null || currNode.right != null)){
-                return false;
-            }
             
-            if(currNode.left != null){
+            if(currNode.left != null && !isNull){
                 queue.add(currNode.left);
             }
-            else{
+            else if(currNode.left != null && isNull){
+                return false;
+            }
+            else if(currNode.left == null){
                 isNull = true;
             }
             
@@ -41,7 +41,7 @@ class Solution {
             else if(currNode.right != null && isNull){
                 return false;
             }
-            else{
+            else if(currNode.right == null){
                 isNull = true;
             }
         }
