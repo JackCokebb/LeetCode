@@ -5,6 +5,11 @@ class Solution {
 
         double[] result = new double[queries.size()];
         for(int i = 0 ; i < queries.size() ; i++) {
+            if(!graph.containsKey(queries.get(i).get(0)) || !graph.containsKey(queries.get(i).get(1))) {
+                result[i] = -1.0;
+                continue;
+            }
+
             result[i] = getWeightByDfs(graph, queries.get(i).get(0), queries.get(i).get(1), new HashSet<>());
         }
 
@@ -13,9 +18,9 @@ class Solution {
 
     private double getWeightByDfs(Map<String, Map<String, Double>> graph, String start, String end, Set<String> visited) {
 
-        if(!graph.containsKey(start)) {
-            return -1.0;
-        }
+        // if(!graph.containsKey(start)) {
+        //     return -1.0;
+        // }
 
         if(graph.get(start).containsKey(end)) {
             return graph.get(start).get(end);
