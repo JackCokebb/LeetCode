@@ -1,38 +1,38 @@
 class Solution {
-    public double[] calcEquation(List<List<String>> equations, double[] values, List<List<String>> queries) {
-        
+    
+    public double[] calcEquation(List<List<String>> equations, double[] values,
+        List<List<String>> queries) {
+
         Map<String, Map<String, Double>> graph = buildGraph(equations, values);
 
         double[] result = new double[queries.size()];
-        for(int i = 0 ; i < queries.size() ; i++) {
-            if(!graph.containsKey(queries.get(i).get(0)) || !graph.containsKey(queries.get(i).get(1))) {
-                result[i] = -1.0;
-                continue;
-            }
+        for (int i = 0; i < queries.size(); i++) {
 
-            result[i] = getWeightByDfs(graph, queries.get(i).get(0), queries.get(i).get(1), new HashSet<>());
+            result[i] = getWeightByDfs(graph, queries.get(i).get(0), queries.get(i).get(1),
+                new HashSet<>());
         }
 
         return result;
     }
 
-    private double getWeightByDfs(Map<String, Map<String, Double>> graph, String start, String end, Set<String> visited) {
+    private double getWeightByDfs(Map<String, Map<String, Double>> graph, String start, String end,
+        Set<String> visited) {
 
-        // if(!graph.containsKey(start)) {
-        //     return -1.0;
-        // }
+        if (!graph.containsKey(start)) {
+            return -1.0;
+        }
 
-        if(graph.get(start).containsKey(end)) {
+        if (graph.get(start).containsKey(end)) {
             return graph.get(start).get(end);
         }
 
-        for(Map.Entry<String, Double> e : graph.get(start).entrySet()) {
-            if(!visited.contains(e.getKey())) {
+        for (Map.Entry<String, Double> e : graph.get(start).entrySet()) {
+            if (!visited.contains(e.getKey())) {
                 visited.add(e.getKey());
 
                 double weight = getWeightByDfs(graph, e.getKey(), end, visited);
 
-                if(weight != -1.0) {
+                if (weight != -1.0) {
                     return weight * e.getValue();
                 }
             }
@@ -41,12 +41,13 @@ class Solution {
         return -1.0;
     }
 
-    private Map<String, Map<String, Double>> buildGraph(List<List<String>> equations, double[] values) {
+    private Map<String, Map<String, Double>> buildGraph(List<List<String>> equations,
+        double[] values) {
 
         HashMap<String, Map<String, Double>> graph = new HashMap<>();
 
-        for(int i = 0 ; i < equations.size() ; i++) {
-            
+        for (int i = 0; i < equations.size(); i++) {
+
             String start = equations.get(i).get(0);
             String end = equations.get(i).get(1);
 
