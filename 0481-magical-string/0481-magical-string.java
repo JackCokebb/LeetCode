@@ -1,62 +1,36 @@
 class Solution {
-    List<String> list = new ArrayList<>();
-    int currIdx = 0;
-    int appendingIdx = 0;
+    String[] list;
+    int currIdx = 2;
+    int appendingIdx = 3;
+    int count = 1;
 
     public int magicalString(int n) {
 
+        if(n < 1) return 0;
+        if(n < 4) return 1;
 
-        list.add("1");
+        list = new String[n + 1];
+        list[0] = "1";
+        list[1] = "2";
+        list[2] = "2";
 
-        while(list.size() < n) {
+        int num = 1;
 
-            String currNum = list.get(currIdx);
-            String lastNum = list.get(appendingIdx);
+        while(appendingIdx < n) {
 
-            if("1".equals(currNum)) {
-                if(lastNum.equals("1")) {
+            for(int i = 0 ; i < Integer.parseInt(list[currIdx]) ; i++) {
+                list[appendingIdx] = String.valueOf(num);
 
-                    list.add("2");
-                } else {
-
-                    list.add("1");
+                if(num == 1 && appendingIdx < n) {
+                    count++;
                 }
-
-                currIdx++;
-                appendingIdx++;
-                continue;
-            }
-
-            if("2".equals(currNum)) {
-                if(lastNum.equals(getPreviousOf(appendingIdx))) {
-                    
-                    if(lastNum.equals("1")) {
-                        list.add("2");
-                    } else {
-                        list.add("1");
-                    }
-                    currIdx++;
-                    
-                } else {
-                    
-                    list.add(lastNum);
-                }
-                
                 appendingIdx++;
             }
+
+            num = num ^ 3;
+            currIdx++;
         }
 
-        list = list.size() > n ? list.subList(0, n + 1) : list;
-
-        return (int) list.stream().filter("1"::equals).count();
-    }
-
-    private String getPreviousOf(int idx) {
-
-        if(idx == 0) {
-            return null;
-        }
-
-        return list.get(idx - 1);
+        return count;
     }
 }
