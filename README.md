@@ -26,6 +26,7 @@
 |  |
 | ------- |
 | [0399-evaluate-division](https://github.com/JackCokebb/LeetCode/tree/master/0399-evaluate-division) |
+| [0481-magical-string](https://github.com/JackCokebb/LeetCode/tree/master/0481-magical-string) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -42,4 +43,8 @@
 |  |
 | ------- |
 | [0399-evaluate-division](https://github.com/JackCokebb/LeetCode/tree/master/0399-evaluate-division) |
+## Two Pointers
+|  |
+| ------- |
+| [0481-magical-string](https://github.com/JackCokebb/LeetCode/tree/master/0481-magical-string) |
 <!---LeetCode Topics End-->
