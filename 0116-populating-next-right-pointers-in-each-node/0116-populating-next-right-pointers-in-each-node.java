@@ -38,20 +38,20 @@ class Solution {
         
         while (!evenQueue.isEmpty() || !oddQueue.isEmpty()) {
 
-            Node currNode = getCurrentQueue(isEven).poll();
-            if (!getCurrentQueue(isEven).isEmpty()) {
-                currNode.next = getCurrentQueue(isEven).peek();
+            Deque<Node> currQueue = getCurrentQueue(isEven);
+            Deque<Node> nextQueue = getNextQueue(isEven);
+            Node currNode = currQueue.poll();
+            
+            if (!currQueue.isEmpty()) {
+                currNode.next = currQueue.peek();
             }
 
             if (currNode.left != null) {
-                getNextQueue(isEven).addLast(currNode.left);
+                nextQueue.addLast(currNode.left);
+                nextQueue.addLast(currNode.right);
             }
 
-            if (currNode.right != null) {
-                getNextQueue(isEven).addLast(currNode.right);
-            }
-
-            if (getCurrentQueue(isEven).isEmpty()) {
+            if (currQueue.isEmpty()) {
                 isEven = !isEven;
             }
         }
