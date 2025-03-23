@@ -22,58 +22,20 @@ class Node {
 */
 
 class Solution {
-
-    Deque<Node> evenQueue = new ArrayDeque<>();
-    Deque<Node> oddQueue = new ArrayDeque<>();
-
     public Node connect(Node root) {
-        
-        if (root == null) {
-
-            return root;
+        if (root == null) return null;
+        Node leftMost = root;
+        while (leftMost.left != null) {
+            Node cur = leftMost;
+            while (cur != null) {
+                cur.left.next = cur.right;
+                if (cur.next != null) {
+                    cur.right.next = cur.next.left;
+                }
+                cur = cur.next;
+            }
+            leftMost = leftMost.left;
         }
-
-        boolean isEven = true;
-        evenQueue.addLast(root);
-        
-        while (!evenQueue.isEmpty() || !oddQueue.isEmpty()) {
-
-            Deque<Node> currQueue = getCurrentQueue(isEven);
-            Deque<Node> nextQueue = getNextQueue(isEven);
-            Node currNode = currQueue.poll();
-            
-            if (!currQueue.isEmpty()) {
-                currNode.next = currQueue.peek();
-            }
-
-            if (currNode.left != null) {
-                nextQueue.addLast(currNode.left);
-                nextQueue.addLast(currNode.right);
-            }
-
-            if (currQueue.isEmpty()) {
-                isEven = !isEven;
-            }
-        }
-
         return root;
     }
-
-    public Deque<Node> getCurrentQueue(boolean isEven) {
-        if (isEven) {
-            return evenQueue;
-        }
-        else {
-            return oddQueue;
-        }
-    }
-
-    public Deque<Node> getNextQueue(boolean isEven) {
-        if (isEven) {
-            return oddQueue;
-        }
-        else {
-            return evenQueue;
-        }
-    }
-}
+}  
