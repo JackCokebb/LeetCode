@@ -9,26 +9,23 @@
  * }
  */
 class Solution {
-
-    HashMap<Integer, Boolean> visited;
-
     public ListNode deleteDuplicates(ListNode head) {
         if (head == null) return head;
-        
-        visited = new HashMap<>();
+
+        boolean[] visited = new boolean[201];
 
         ListNode currNode = head;
         ListNode prevNode = head;
 
-        visited.put(currNode.val, true);
+        visited[currNode.val + 100] = true;
 
         currNode = head.next;
         while (currNode != null) {
-            if (visited.get(currNode.val) != null) {
+            if (visited[currNode.val + 100]) {
                 prevNode.next = currNode.next;
                 currNode = currNode.next;
             } else {
-                visited.put(currNode.val, true);
+                visited[currNode.val + 100] = true;
                 
                 prevNode = currNode;
                 currNode = currNode.next;
