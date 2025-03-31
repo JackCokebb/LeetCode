@@ -33,6 +33,7 @@
 ## String
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/JackCokebb/LeetCode/tree/master/0005-longest-palindromic-substring) |
 | [0399-evaluate-division](https://github.com/JackCokebb/LeetCode/tree/master/0399-evaluate-division) |
 | [0481-magical-string](https://github.com/JackCokebb/LeetCode/tree/master/0481-magical-string) |
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/JackCokebb/LeetCode/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
@@ -56,11 +57,13 @@
 ## Two Pointers
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/JackCokebb/LeetCode/tree/master/0005-longest-palindromic-substring) |
 | [0016-3sum-closest](https://github.com/JackCokebb/LeetCode/tree/master/0016-3sum-closest) |
 | [0481-magical-string](https://github.com/JackCokebb/LeetCode/tree/master/0481-magical-string) |
 ## Dynamic Programming
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/JackCokebb/LeetCode/tree/master/0005-longest-palindromic-substring) |
 | [0096-unique-binary-search-trees](https://github.com/JackCokebb/LeetCode/tree/master/0096-unique-binary-search-trees) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/JackCokebb/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 ## Sorting
