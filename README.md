@@ -17,6 +17,7 @@
 | ------- |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/JackCokebb/LeetCode/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0144-binary-tree-preorder-traversal](https://github.com/JackCokebb/LeetCode/tree/master/0144-binary-tree-preorder-traversal) |
+| [0207-course-schedule](https://github.com/JackCokebb/LeetCode/tree/master/0207-course-schedule) |
 | [0399-evaluate-division](https://github.com/JackCokebb/LeetCode/tree/master/0399-evaluate-division) |
 ## Binary Tree
 |  |
@@ -42,6 +43,7 @@
 |  |
 | ------- |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/JackCokebb/LeetCode/tree/master/0116-populating-next-right-pointers-in-each-node) |
+| [0207-course-schedule](https://github.com/JackCokebb/LeetCode/tree/master/0207-course-schedule) |
 | [0399-evaluate-division](https://github.com/JackCokebb/LeetCode/tree/master/0399-evaluate-division) |
 ## Union Find
 |  |
@@ -50,6 +52,7 @@
 ## Graph
 |  |
 | ------- |
+| [0207-course-schedule](https://github.com/JackCokebb/LeetCode/tree/master/0207-course-schedule) |
 | [0399-evaluate-division](https://github.com/JackCokebb/LeetCode/tree/master/0399-evaluate-division) |
 ## Shortest Path
 |  |
@@ -89,4 +92,8 @@
 |  |
 | ------- |
 | [0740-delete-and-earn](https://github.com/JackCokebb/LeetCode/tree/master/0740-delete-and-earn) |
+## Topological Sort
+|  |
+| ------- |
+| [0207-course-schedule](https://github.com/JackCokebb/LeetCode/tree/master/0207-course-schedule) |
 <!---LeetCode Topics End-->
