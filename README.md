@@ -4,6 +4,7 @@
 ## Stack
 |  |
 | ------- |
+| [0071-simplify-path](https://github.com/JackCokebb/LeetCode/tree/master/0071-simplify-path) |
 | [0144-binary-tree-preorder-traversal](https://github.com/JackCokebb/LeetCode/tree/master/0144-binary-tree-preorder-traversal) |
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/JackCokebb/LeetCode/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
 ## Tree
@@ -36,6 +37,7 @@
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/JackCokebb/LeetCode/tree/master/0005-longest-palindromic-substring) |
+| [0071-simplify-path](https://github.com/JackCokebb/LeetCode/tree/master/0071-simplify-path) |
 | [0399-evaluate-division](https://github.com/JackCokebb/LeetCode/tree/master/0399-evaluate-division) |
 | [0481-magical-string](https://github.com/JackCokebb/LeetCode/tree/master/0481-magical-string) |
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/JackCokebb/LeetCode/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
