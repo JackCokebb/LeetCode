@@ -10,12 +10,6 @@ class Solution {
             }
         }
 
-        for (int i = 0 ; i < stripPath.length ; i++) {
-            System.out.println("i: " + i + ", " + stripPath[i]);
-        }
-
-        System.out.println("=======");
-
         for (int i = stripPath.length - 1 ; i >= 0 ; i--) {
             if ("..".equals(stripPath[i]) && i > 0) {
                 int dotCount = 1;
@@ -27,7 +21,6 @@ class Solution {
                 --i;
 
                 while (dotCount-- > 0) {
-                    System.out.println("curr i: " + i + ", dot cnt: " + dotCount + 1);
                     if (i >= 0 && stripPath[i] == "") {
                         dotCount++;
                         i--;
@@ -36,17 +29,11 @@ class Solution {
                         stripPath[i] = "";
                         i--;
                     } else {
-                        System.out.println("i: " + Math.max(0, i) + ", " + stripPath[Math.max(0, i)] + " DEL");
                         stripPath[Math.max(0, i--)] = "";
                     }
                 }
                 i++;
             }
-        }
-
-        System.out.println("=======");
-        for (int i = 0 ; i < stripPath.length ; i++) {
-            System.out.println("i: " + i + ", " + stripPath[i]);
         }
 
         for (int i = 0 ; i < stripPath.length ; i++) {
