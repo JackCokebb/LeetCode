@@ -14,16 +14,11 @@ class Solution {
                 if(checked[i] != 0) {
                     count = checked[i] + 1;
                 } else {
-                    //System.out.println("Set: " + i + " as, " + count);
                     checked[i] = count; 
                     count++;
                 }                
             }
         }
-
-        // for(int i : checked) {
-        //     System.out.print("" + i + ", ");
-        // }
 
         boolean started = false;
         int startingIdx = 0;
