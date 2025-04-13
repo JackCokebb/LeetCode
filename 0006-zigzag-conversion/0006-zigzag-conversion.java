@@ -6,9 +6,9 @@ class Solution {
 
         int currIdx = 1;
         boolean isAsc = true;
-        for(int i = 0 ; i < s.length() ; i++) {
+        for (char c : s.toCharArray()) {
 
-            map.put(currIdx, map.getOrDefault(currIdx, "") + s.charAt(i));
+            map.put(currIdx, map.getOrDefault(currIdx, "") + c);
 
             if(currIdx == 1) {
                 isAsc = true;
