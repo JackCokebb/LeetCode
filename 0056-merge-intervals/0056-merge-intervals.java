@@ -1,48 +1,22 @@
 class Solution {
     public int[][] merge(int[][] intervals) {
         Arrays.sort(intervals, (a, b) -> Integer.compare(a[0], b[0]));
-        
-        int[] checked = new int[10002];
-        List<int[]> result = new ArrayList<>();
-        
-        for(int[] interval : intervals) {
-            int start = interval[0];
-            int end = interval[1];
-            int count = 1;
-
-            for(int i = start ; i <= end ; i++) {
-                if(checked[i] != 0) {
-                    count = checked[i] + 1;
-                } else {
-                    checked[i] = count; 
-                    count++;
-                }                
+        LinkedList<int[]> merged = new LinkedList<>();
+        for (int[] interval : intervals) {
+            // if the list of merged intervals is empty or if the current
+            // interval does not overlap with the previous, simply append it.
+            if (merged.isEmpty() || merged.getLast()[1] < interval[0]) {
+                merged.add(interval);
+            }
+            // otherwise, there is overlap, so we merge the current and previous
+            // intervals.
+            else {
+                merged.getLast()[1] = Math.max(
+                    merged.getLast()[1],
+                    interval[1]
+                );
             }
         }
-
-        boolean started = false;
-        int startingIdx = 0;
-        for(int i = 0 ; i <= 10001 ; i++) {
-            
-            if(checked[i] == 1 && !started) {
-                startingIdx = i;
-                started = true;
-                continue;
-            }
-
-            if(checked[i] == 1 && started) {
-                result.add(new int[] {startingIdx, i - 1});
-                startingIdx = i;
-                started = true;
-                continue;
-            }
-
-            if(checked[i] < 1 && started) {
-                result.add(new int[] {startingIdx, i - 1});
-                started = false;
-            }
-        }
-
-        return result.toArray(new int[0][]);
+        return merged.toArray(new int[merged.size()][]);
     }
 }
