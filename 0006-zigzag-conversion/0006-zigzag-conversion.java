@@ -1,34 +1,32 @@
 class Solution {
-    Map<Integer, String> map;
     public String convert(String s, int numRows) {
+        if (s.length()<=numRows)return s;
 
-        map = new HashMap<>();
+        StringBuilder[] sb = new StringBuilder[numRows];
+        for (int i = 0;i<numRows;i++){
+            sb[i] = new StringBuilder();
+        }
 
-        int currIdx = 1;
-        boolean isAsc = true;
-        for (char c : s.toCharArray()) {
+        for (int i =0;i<s.length();){
 
-            map.put(currIdx, map.getOrDefault(currIdx, "") + c);
-
-            if(currIdx == 1) {
-                isAsc = true;
-            } else if (currIdx == numRows) {
-                isAsc = false;
+            //Going down
+            for (int j=0;j<numRows && i<s.length();j++){
+                sb[j].append(s.charAt(i));
+                i++;
             }
 
-            if(isAsc) {
-                currIdx = currIdx + 1 > numRows ? numRows : currIdx + 1;
-            } else {
-                currIdx = currIdx - 1 < 1 ? 1 : currIdx - 1;
-            } 
+            //Going up
+            for (int j=numRows-2;j>=1 && i<s.length();j--){
+                sb[j].append(s.charAt(i));
+                i++;
+            }
         }
 
-        String result = "";
-
-        for(int i = 1 ; i <= numRows ; i++) {
-            result = result + map.getOrDefault(i, "");
+        StringBuilder ans = new StringBuilder();
+        for(StringBuilder temp:sb){
+            ans.append(temp);
         }
 
-        return result;
+        return ans.toString();
     }
 }
