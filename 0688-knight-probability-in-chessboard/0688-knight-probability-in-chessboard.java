@@ -1,17 +1,35 @@
 class Solution {
-    private int[][]dir = new int[][]{{-2,-1},{-1,-2},{1,-2},{2,-1},{2,1},{1,2},{-1,2},{-2,1}};
-    private double[][][] dp;
-    public double knightProbability(int N, int K, int r, int c) {
-        dp = new double[N][N][K + 1];
-        return find(N,K,r,c);
+
+    Deque<int[]> queue = new ArrayDeque<>();
+    int[] dRow = new int[] {-2, -1, 1, 2, 2, 1, -1, -2};
+    int[] dCol = new int[] {-1, -2, -2, -1, 1, 2, 2, 1};
+    double[][][] dp;
+
+    public double knightProbability(int n, int k, int row, int column) {
+        dp = new double[n][n][k + 1];
+        return recursive(n, k, row, column);
     }
-    public double find(int N,int K,int r,int c){
-        if(r < 0 || r > N - 1 || c < 0 || c > N - 1) return 0;
-        if(K == 0)  return 1;
-        if(dp[r][c][K] != 0) return dp[r][c][K];
-        double rate = 0;
-        for(int i = 0;i < dir.length;i++)   rate += 0.125 * find(N,K - 1,r + dir[i][0],c + dir[i][1]);
-        dp[r][c][K] = rate;
-        return rate;
+
+    public double recursive(int n, int k, int row, int column) {
+        if (row < 0 || row >= n || column < 0 || column >= n) {
+            return 0;
+        }
+
+        if (k == 0) { 
+            return 1;
+        }
+
+        if (dp[row][column][k] != 0) {
+            return dp[row][column][k];
+        }
+
+        double result = 0;
+
+        for (int i = 0 ; i < 8 ; i++) {
+            result += 0.125 * recursive(n, k - 1, row + dRow[i], column + dCol[i]);
+        }
+
+        dp[row][column][k] = result;
+        return result;
     }
 }
