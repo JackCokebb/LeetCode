@@ -19,8 +19,7 @@ class Solution {
             count++; 
             curr = curr.next;
         }
-        System.out.println("count = " + count);
-
+    
         int sectionCount = count / k;
         int remainder = count % k;
         
@@ -50,7 +49,7 @@ class Solution {
             if(curr == null) break;
 
             if((i + 1) % sectionCount == 0 && remainder > 0) {
-                System.out.println("(i + 1) % k == 0 && remainder > 0");
+                
                 curr = curr.next;
                 ListNode temp = curr.next;
                 curr.next = null;
@@ -63,7 +62,7 @@ class Solution {
                 }
 
             } else if((i + 1) % sectionCount == 0 && remainder <= 0) {
-                System.out.println("count % k == 0 && remainder <= 0");
+                
                 ListNode temp = curr.next;
                 curr.next = null;
                 curr = temp;
@@ -74,8 +73,8 @@ class Solution {
                 }
 
             } else {
-                System.out.println("else");
                 curr = curr.next;
+                
             }
         }
 
