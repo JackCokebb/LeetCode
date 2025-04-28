@@ -100,6 +100,7 @@
 | ------- |
 | [0083-remove-duplicates-from-sorted-list](https://github.com/JackCokebb/LeetCode/tree/master/0083-remove-duplicates-from-sorted-list) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/JackCokebb/LeetCode/tree/master/0116-populating-next-right-pointers-in-each-node) |
+| [0725-split-linked-list-in-parts](https://github.com/JackCokebb/LeetCode/tree/master/0725-split-linked-list-in-parts) |
 ## Hash Table
 |  |
 | ------- |
