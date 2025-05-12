@@ -36,6 +36,7 @@
 | [0056-merge-intervals](https://github.com/JackCokebb/LeetCode/tree/master/0056-merge-intervals) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/JackCokebb/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0399-evaluate-division](https://github.com/JackCokebb/LeetCode/tree/master/0399-evaluate-division) |
+| [0486-predict-the-winner](https://github.com/JackCokebb/LeetCode/tree/master/0486-predict-the-winner) |
 | [0526-beautiful-arrangement](https://github.com/JackCokebb/LeetCode/tree/master/0526-beautiful-arrangement) |
 | [0740-delete-and-earn](https://github.com/JackCokebb/LeetCode/tree/master/0740-delete-and-earn) |
 | [1095-two-city-scheduling](https://github.com/JackCokebb/LeetCode/tree/master/1095-two-city-scheduling) |
@@ -81,6 +82,7 @@
 | [0095-unique-binary-search-trees-ii](https://github.com/JackCokebb/LeetCode/tree/master/0095-unique-binary-search-trees-ii) |
 | [0096-unique-binary-search-trees](https://github.com/JackCokebb/LeetCode/tree/master/0096-unique-binary-search-trees) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/JackCokebb/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0486-predict-the-winner](https://github.com/JackCokebb/LeetCode/tree/master/0486-predict-the-winner) |
 | [0526-beautiful-arrangement](https://github.com/JackCokebb/LeetCode/tree/master/0526-beautiful-arrangement) |
 | [0688-knight-probability-in-chessboard](https://github.com/JackCokebb/LeetCode/tree/master/0688-knight-probability-in-chessboard) |
 | [0740-delete-and-earn](https://github.com/JackCokebb/LeetCode/tree/master/0740-delete-and-earn) |
@@ -94,6 +96,7 @@
 |  |
 | ------- |
 | [0096-unique-binary-search-trees](https://github.com/JackCokebb/LeetCode/tree/master/0096-unique-binary-search-trees) |
+| [0486-predict-the-winner](https://github.com/JackCokebb/LeetCode/tree/master/0486-predict-the-winner) |
 ## Binary Search Tree
 |  |
 | ------- |
@@ -138,4 +141,12 @@
 |  |
 | ------- |
 | [0526-beautiful-arrangement](https://github.com/JackCokebb/LeetCode/tree/master/0526-beautiful-arrangement) |
+## Recursion
+|  |
+| ------- |
+| [0486-predict-the-winner](https://github.com/JackCokebb/LeetCode/tree/master/0486-predict-the-winner) |
+## Game Theory
+|  |
+| ------- |
+| [0486-predict-the-winner](https://github.com/JackCokebb/LeetCode/tree/master/0486-predict-the-winner) |
 <!---LeetCode Topics End-->
