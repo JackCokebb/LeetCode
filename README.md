@@ -41,6 +41,7 @@
 | [0740-delete-and-earn](https://github.com/JackCokebb/LeetCode/tree/master/0740-delete-and-earn) |
 | [1095-two-city-scheduling](https://github.com/JackCokebb/LeetCode/tree/master/1095-two-city-scheduling) |
 | [1802-number-of-students-unable-to-eat-lunch](https://github.com/JackCokebb/LeetCode/tree/master/1802-number-of-students-unable-to-eat-lunch) |
+| [2038-nearest-exit-from-entrance-in-maze](https://github.com/JackCokebb/LeetCode/tree/master/2038-nearest-exit-from-entrance-in-maze) |
 ## String
 |  |
 | ------- |
@@ -56,6 +57,7 @@
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/JackCokebb/LeetCode/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0207-course-schedule](https://github.com/JackCokebb/LeetCode/tree/master/0207-course-schedule) |
 | [0399-evaluate-division](https://github.com/JackCokebb/LeetCode/tree/master/0399-evaluate-division) |
+| [2038-nearest-exit-from-entrance-in-maze](https://github.com/JackCokebb/LeetCode/tree/master/2038-nearest-exit-from-entrance-in-maze) |
 ## Union Find
 |  |
 | ------- |
@@ -149,4 +151,8 @@
 |  |
 | ------- |
 | [0486-predict-the-winner](https://github.com/JackCokebb/LeetCode/tree/master/0486-predict-the-winner) |
+## Matrix
+|  |
+| ------- |
+| [2038-nearest-exit-from-entrance-in-maze](https://github.com/JackCokebb/LeetCode/tree/master/2038-nearest-exit-from-entrance-in-maze) |
 <!---LeetCode Topics End-->
