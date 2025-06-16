@@ -41,6 +41,7 @@
 | [0526-beautiful-arrangement](https://github.com/JackCokebb/LeetCode/tree/master/0526-beautiful-arrangement) |
 | [0740-delete-and-earn](https://github.com/JackCokebb/LeetCode/tree/master/0740-delete-and-earn) |
 | [1095-two-city-scheduling](https://github.com/JackCokebb/LeetCode/tree/master/1095-two-city-scheduling) |
+| [1129-longest-string-chain](https://github.com/JackCokebb/LeetCode/tree/master/1129-longest-string-chain) |
 | [1802-number-of-students-unable-to-eat-lunch](https://github.com/JackCokebb/LeetCode/tree/master/1802-number-of-students-unable-to-eat-lunch) |
 | [2038-nearest-exit-from-entrance-in-maze](https://github.com/JackCokebb/LeetCode/tree/master/2038-nearest-exit-from-entrance-in-maze) |
 ## String
@@ -53,6 +54,7 @@
 | [0399-evaluate-division](https://github.com/JackCokebb/LeetCode/tree/master/0399-evaluate-division) |
 | [0481-magical-string](https://github.com/JackCokebb/LeetCode/tree/master/0481-magical-string) |
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/JackCokebb/LeetCode/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
+| [1129-longest-string-chain](https://github.com/JackCokebb/LeetCode/tree/master/1129-longest-string-chain) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -79,6 +81,7 @@
 | [0005-longest-palindromic-substring](https://github.com/JackCokebb/LeetCode/tree/master/0005-longest-palindromic-substring) |
 | [0016-3sum-closest](https://github.com/JackCokebb/LeetCode/tree/master/0016-3sum-closest) |
 | [0481-magical-string](https://github.com/JackCokebb/LeetCode/tree/master/0481-magical-string) |
+| [1129-longest-string-chain](https://github.com/JackCokebb/LeetCode/tree/master/1129-longest-string-chain) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -91,12 +94,14 @@
 | [0526-beautiful-arrangement](https://github.com/JackCokebb/LeetCode/tree/master/0526-beautiful-arrangement) |
 | [0688-knight-probability-in-chessboard](https://github.com/JackCokebb/LeetCode/tree/master/0688-knight-probability-in-chessboard) |
 | [0740-delete-and-earn](https://github.com/JackCokebb/LeetCode/tree/master/0740-delete-and-earn) |
+| [1129-longest-string-chain](https://github.com/JackCokebb/LeetCode/tree/master/1129-longest-string-chain) |
 ## Sorting
 |  |
 | ------- |
 | [0016-3sum-closest](https://github.com/JackCokebb/LeetCode/tree/master/0016-3sum-closest) |
 | [0056-merge-intervals](https://github.com/JackCokebb/LeetCode/tree/master/0056-merge-intervals) |
 | [1095-two-city-scheduling](https://github.com/JackCokebb/LeetCode/tree/master/1095-two-city-scheduling) |
+| [1129-longest-string-chain](https://github.com/JackCokebb/LeetCode/tree/master/1129-longest-string-chain) |
 ## Math
 |  |
 | ------- |
@@ -118,6 +123,7 @@
 |  |
 | ------- |
 | [0740-delete-and-earn](https://github.com/JackCokebb/LeetCode/tree/master/0740-delete-and-earn) |
+| [1129-longest-string-chain](https://github.com/JackCokebb/LeetCode/tree/master/1129-longest-string-chain) |
 ## Topological Sort
 |  |
 | ------- |
