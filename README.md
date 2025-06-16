@@ -86,6 +86,7 @@
 | [0095-unique-binary-search-trees-ii](https://github.com/JackCokebb/LeetCode/tree/master/0095-unique-binary-search-trees-ii) |
 | [0096-unique-binary-search-trees](https://github.com/JackCokebb/LeetCode/tree/master/0096-unique-binary-search-trees) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/JackCokebb/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0343-integer-break](https://github.com/JackCokebb/LeetCode/tree/master/0343-integer-break) |
 | [0486-predict-the-winner](https://github.com/JackCokebb/LeetCode/tree/master/0486-predict-the-winner) |
 | [0526-beautiful-arrangement](https://github.com/JackCokebb/LeetCode/tree/master/0526-beautiful-arrangement) |
 | [0688-knight-probability-in-chessboard](https://github.com/JackCokebb/LeetCode/tree/master/0688-knight-probability-in-chessboard) |
@@ -100,6 +101,7 @@
 |  |
 | ------- |
 | [0096-unique-binary-search-trees](https://github.com/JackCokebb/LeetCode/tree/master/0096-unique-binary-search-trees) |
+| [0343-integer-break](https://github.com/JackCokebb/LeetCode/tree/master/0343-integer-break) |
 | [0486-predict-the-winner](https://github.com/JackCokebb/LeetCode/tree/master/0486-predict-the-winner) |
 ## Binary Search Tree
 |  |
