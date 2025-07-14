@@ -102,6 +102,7 @@
 | [0688-knight-probability-in-chessboard](https://github.com/JackCokebb/LeetCode/tree/master/0688-knight-probability-in-chessboard) |
 | [0740-delete-and-earn](https://github.com/JackCokebb/LeetCode/tree/master/0740-delete-and-earn) |
 | [1129-longest-string-chain](https://github.com/JackCokebb/LeetCode/tree/master/1129-longest-string-chain) |
+| [1761-count-sorted-vowel-strings](https://github.com/JackCokebb/LeetCode/tree/master/1761-count-sorted-vowel-strings) |
 ## Sorting
 |  |
 | ------- |
@@ -116,6 +117,7 @@
 | [0096-unique-binary-search-trees](https://github.com/JackCokebb/LeetCode/tree/master/0096-unique-binary-search-trees) |
 | [0343-integer-break](https://github.com/JackCokebb/LeetCode/tree/master/0343-integer-break) |
 | [0486-predict-the-winner](https://github.com/JackCokebb/LeetCode/tree/master/0486-predict-the-winner) |
+| [1761-count-sorted-vowel-strings](https://github.com/JackCokebb/LeetCode/tree/master/1761-count-sorted-vowel-strings) |
 ## Binary Search Tree
 |  |
 | ------- |
@@ -182,4 +184,8 @@
 |  |
 | ------- |
 | [0316-remove-duplicate-letters](https://github.com/JackCokebb/LeetCode/tree/master/0316-remove-duplicate-letters) |
+## Combinatorics
+|  |
+| ------- |
+| [1761-count-sorted-vowel-strings](https://github.com/JackCokebb/LeetCode/tree/master/1761-count-sorted-vowel-strings) |
 <!---LeetCode Topics End-->
