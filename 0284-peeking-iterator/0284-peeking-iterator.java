@@ -34,7 +34,7 @@ class PeekingIterator implements Iterator<Integer> {
 
     @Override
     public boolean hasNext() {
-        System.out.println("this.list.size() - 1: " + (this.list.size() - 1) + ", this.pointer: " + this.pointer);
+        //System.out.println("this.list.size() - 1: " + (this.list.size() - 1) + ", this.pointer: " + this.pointer);
         return this.list.size() > this.pointer;
     }
 }
