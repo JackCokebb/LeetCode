@@ -39,6 +39,7 @@
 | [0078-subsets](https://github.com/JackCokebb/LeetCode/tree/master/0078-subsets) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/JackCokebb/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0200-number-of-islands](https://github.com/JackCokebb/LeetCode/tree/master/0200-number-of-islands) |
+| [0284-peeking-iterator](https://github.com/JackCokebb/LeetCode/tree/master/0284-peeking-iterator) |
 | [0399-evaluate-division](https://github.com/JackCokebb/LeetCode/tree/master/0399-evaluate-division) |
 | [0486-predict-the-winner](https://github.com/JackCokebb/LeetCode/tree/master/0486-predict-the-winner) |
 | [0526-beautiful-arrangement](https://github.com/JackCokebb/LeetCode/tree/master/0526-beautiful-arrangement) |
@@ -193,4 +194,12 @@
 |  |
 | ------- |
 | [0223-rectangle-area](https://github.com/JackCokebb/LeetCode/tree/master/0223-rectangle-area) |
+## Design
+|  |
+| ------- |
+| [0284-peeking-iterator](https://github.com/JackCokebb/LeetCode/tree/master/0284-peeking-iterator) |
+## Iterator
+|  |
+| ------- |
+| [0284-peeking-iterator](https://github.com/JackCokebb/LeetCode/tree/master/0284-peeking-iterator) |
 <!---LeetCode Topics End-->
