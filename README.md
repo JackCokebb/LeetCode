@@ -115,6 +115,7 @@
 ## Math
 |  |
 | ------- |
+| [0007-reverse-integer](https://github.com/JackCokebb/LeetCode/tree/master/0007-reverse-integer) |
 | [0096-unique-binary-search-trees](https://github.com/JackCokebb/LeetCode/tree/master/0096-unique-binary-search-trees) |
 | [0223-rectangle-area](https://github.com/JackCokebb/LeetCode/tree/master/0223-rectangle-area) |
 | [0343-integer-break](https://github.com/JackCokebb/LeetCode/tree/master/0343-integer-break) |
