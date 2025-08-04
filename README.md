@@ -132,10 +132,12 @@
 | ------- |
 | [0083-remove-duplicates-from-sorted-list](https://github.com/JackCokebb/LeetCode/tree/master/0083-remove-duplicates-from-sorted-list) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/JackCokebb/LeetCode/tree/master/0116-populating-next-right-pointers-in-each-node) |
+| [0355-design-twitter](https://github.com/JackCokebb/LeetCode/tree/master/0355-design-twitter) |
 | [0725-split-linked-list-in-parts](https://github.com/JackCokebb/LeetCode/tree/master/0725-split-linked-list-in-parts) |
 ## Hash Table
 |  |
 | ------- |
+| [0355-design-twitter](https://github.com/JackCokebb/LeetCode/tree/master/0355-design-twitter) |
 | [0740-delete-and-earn](https://github.com/JackCokebb/LeetCode/tree/master/0740-delete-and-earn) |
 | [1129-longest-string-chain](https://github.com/JackCokebb/LeetCode/tree/master/1129-longest-string-chain) |
 ## Topological Sort
@@ -199,8 +201,13 @@
 |  |
 | ------- |
 | [0284-peeking-iterator](https://github.com/JackCokebb/LeetCode/tree/master/0284-peeking-iterator) |
+| [0355-design-twitter](https://github.com/JackCokebb/LeetCode/tree/master/0355-design-twitter) |
 ## Iterator
 |  |
 | ------- |
 | [0284-peeking-iterator](https://github.com/JackCokebb/LeetCode/tree/master/0284-peeking-iterator) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [0355-design-twitter](https://github.com/JackCokebb/LeetCode/tree/master/0355-design-twitter) |
 <!---LeetCode Topics End-->
