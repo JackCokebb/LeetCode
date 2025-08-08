@@ -36,6 +36,7 @@
 |  |
 | ------- |
 | [0016-3sum-closest](https://github.com/JackCokebb/LeetCode/tree/master/0016-3sum-closest) |
+| [0045-jump-game-ii](https://github.com/JackCokebb/LeetCode/tree/master/0045-jump-game-ii) |
 | [0056-merge-intervals](https://github.com/JackCokebb/LeetCode/tree/master/0056-merge-intervals) |
 | [0078-subsets](https://github.com/JackCokebb/LeetCode/tree/master/0078-subsets) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/JackCokebb/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -99,6 +100,7 @@
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/JackCokebb/LeetCode/tree/master/0005-longest-palindromic-substring) |
+| [0045-jump-game-ii](https://github.com/JackCokebb/LeetCode/tree/master/0045-jump-game-ii) |
 | [0072-edit-distance](https://github.com/JackCokebb/LeetCode/tree/master/0072-edit-distance) |
 | [0095-unique-binary-search-trees-ii](https://github.com/JackCokebb/LeetCode/tree/master/0095-unique-binary-search-trees-ii) |
 | [0096-unique-binary-search-trees](https://github.com/JackCokebb/LeetCode/tree/master/0096-unique-binary-search-trees) |
@@ -161,6 +163,7 @@
 ## Greedy
 |  |
 | ------- |
+| [0045-jump-game-ii](https://github.com/JackCokebb/LeetCode/tree/master/0045-jump-game-ii) |
 | [0316-remove-duplicate-letters](https://github.com/JackCokebb/LeetCode/tree/master/0316-remove-duplicate-letters) |
 | [1095-two-city-scheduling](https://github.com/JackCokebb/LeetCode/tree/master/1095-two-city-scheduling) |
 ## Queue
