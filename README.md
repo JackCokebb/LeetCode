@@ -6,6 +6,7 @@
 | ------- |
 | [0071-simplify-path](https://github.com/JackCokebb/LeetCode/tree/master/0071-simplify-path) |
 | [0144-binary-tree-preorder-traversal](https://github.com/JackCokebb/LeetCode/tree/master/0144-binary-tree-preorder-traversal) |
+| [0173-binary-search-tree-iterator](https://github.com/JackCokebb/LeetCode/tree/master/0173-binary-search-tree-iterator) |
 | [0316-remove-duplicate-letters](https://github.com/JackCokebb/LeetCode/tree/master/0316-remove-duplicate-letters) |
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/JackCokebb/LeetCode/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
 | [1802-number-of-students-unable-to-eat-lunch](https://github.com/JackCokebb/LeetCode/tree/master/1802-number-of-students-unable-to-eat-lunch) |
@@ -16,6 +17,7 @@
 | [0096-unique-binary-search-trees](https://github.com/JackCokebb/LeetCode/tree/master/0096-unique-binary-search-trees) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/JackCokebb/LeetCode/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0144-binary-tree-preorder-traversal](https://github.com/JackCokebb/LeetCode/tree/master/0144-binary-tree-preorder-traversal) |
+| [0173-binary-search-tree-iterator](https://github.com/JackCokebb/LeetCode/tree/master/0173-binary-search-tree-iterator) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -32,6 +34,7 @@
 | [0096-unique-binary-search-trees](https://github.com/JackCokebb/LeetCode/tree/master/0096-unique-binary-search-trees) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/JackCokebb/LeetCode/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0144-binary-tree-preorder-traversal](https://github.com/JackCokebb/LeetCode/tree/master/0144-binary-tree-preorder-traversal) |
+| [0173-binary-search-tree-iterator](https://github.com/JackCokebb/LeetCode/tree/master/0173-binary-search-tree-iterator) |
 ## Array
 |  |
 | ------- |
@@ -136,6 +139,7 @@
 | ------- |
 | [0095-unique-binary-search-trees-ii](https://github.com/JackCokebb/LeetCode/tree/master/0095-unique-binary-search-trees-ii) |
 | [0096-unique-binary-search-trees](https://github.com/JackCokebb/LeetCode/tree/master/0096-unique-binary-search-trees) |
+| [0173-binary-search-tree-iterator](https://github.com/JackCokebb/LeetCode/tree/master/0173-binary-search-tree-iterator) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/JackCokebb/LeetCode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 ## Linked List
 |  |
@@ -217,11 +221,13 @@
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/JackCokebb/LeetCode/tree/master/0146-lru-cache) |
+| [0173-binary-search-tree-iterator](https://github.com/JackCokebb/LeetCode/tree/master/0173-binary-search-tree-iterator) |
 | [0284-peeking-iterator](https://github.com/JackCokebb/LeetCode/tree/master/0284-peeking-iterator) |
 | [0355-design-twitter](https://github.com/JackCokebb/LeetCode/tree/master/0355-design-twitter) |
 ## Iterator
 |  |
 | ------- |
+| [0173-binary-search-tree-iterator](https://github.com/JackCokebb/LeetCode/tree/master/0173-binary-search-tree-iterator) |
 | [0284-peeking-iterator](https://github.com/JackCokebb/LeetCode/tree/master/0284-peeking-iterator) |
 ## Heap (Priority Queue)
 |  |
