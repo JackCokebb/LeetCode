@@ -1,3 +1,4 @@
+//Java Code
 /*
 // Definition for a Node.
 class Node {
@@ -18,49 +19,24 @@ class Node {
 */
 
 class Solution {
-
-    Deque<NodeExt> queue = new ArrayDeque<>();
-
     public List<List<Integer>> levelOrder(Node root) {
+        List<List<Integer>> ans = new ArrayList<>();
+        if (root == null)
+            return ans;
 
-        int currDepth = 0;
-        List<List<Integer>> answer = new ArrayList<>();
-
-        if (root == null) {
-            return answer;
-        }
-
-        queue.addLast(new NodeExt(root, currDepth));
-        List<Integer> depthNums = new ArrayList<>();
-
-        while (!queue.isEmpty()) {
-            NodeExt currNode = queue.pollFirst();
-
-            if (currNode.depth > currDepth) {
-                answer.add(depthNums);
-                depthNums = new ArrayList<>();
-                currDepth++;
+        Queue<Node> q = new LinkedList<>();
+        q.add(root);
+        while (!q.isEmpty()) {
+            int n = q.size();
+            List<Integer> temp = new ArrayList<>();
+            for (int i = 0; i < n; ++i) {
+                Node child = q.poll();
+                temp.add(child.val);
+                for (Node node : child.children)
+                    q.add(node);
             }
-
-            for (Node child : currNode.children) {
-                queue.addLast(new NodeExt(child, currDepth + 1));
-            }
-
-            depthNums.add(currNode.val);
+            ans.add(temp);
         }
-
-        answer.add(depthNums);
-        return answer;
-    }
-
-    public static class NodeExt extends Node {
-
-        public int depth;
-
-        public NodeExt(Node node, int depth) {
-
-            super(node.val, node.children);
-            this.depth = depth;
-        }
+        return ans;
     }
 }
