@@ -57,6 +57,7 @@
 | [0526-beautiful-arrangement](https://github.com/JackCokebb/LeetCode/tree/master/0526-beautiful-arrangement) |
 | [0740-delete-and-earn](https://github.com/JackCokebb/LeetCode/tree/master/0740-delete-and-earn) |
 | [0881-loud-and-rich](https://github.com/JackCokebb/LeetCode/tree/master/0881-loud-and-rich) |
+| [1087-longest-arithmetic-subsequence](https://github.com/JackCokebb/LeetCode/tree/master/1087-longest-arithmetic-subsequence) |
 | [1095-two-city-scheduling](https://github.com/JackCokebb/LeetCode/tree/master/1095-two-city-scheduling) |
 | [1129-longest-string-chain](https://github.com/JackCokebb/LeetCode/tree/master/1129-longest-string-chain) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/JackCokebb/LeetCode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
@@ -123,6 +124,7 @@
 | [0526-beautiful-arrangement](https://github.com/JackCokebb/LeetCode/tree/master/0526-beautiful-arrangement) |
 | [0688-knight-probability-in-chessboard](https://github.com/JackCokebb/LeetCode/tree/master/0688-knight-probability-in-chessboard) |
 | [0740-delete-and-earn](https://github.com/JackCokebb/LeetCode/tree/master/0740-delete-and-earn) |
+| [1087-longest-arithmetic-subsequence](https://github.com/JackCokebb/LeetCode/tree/master/1087-longest-arithmetic-subsequence) |
 | [1129-longest-string-chain](https://github.com/JackCokebb/LeetCode/tree/master/1129-longest-string-chain) |
 | [1761-count-sorted-vowel-strings](https://github.com/JackCokebb/LeetCode/tree/master/1761-count-sorted-vowel-strings) |
 ## Sorting
@@ -150,6 +152,7 @@
 | [0096-unique-binary-search-trees](https://github.com/JackCokebb/LeetCode/tree/master/0096-unique-binary-search-trees) |
 | [0173-binary-search-tree-iterator](https://github.com/JackCokebb/LeetCode/tree/master/0173-binary-search-tree-iterator) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/JackCokebb/LeetCode/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
+| [1087-longest-arithmetic-subsequence](https://github.com/JackCokebb/LeetCode/tree/master/1087-longest-arithmetic-subsequence) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/JackCokebb/LeetCode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 ## Linked List
 |  |
@@ -167,6 +170,7 @@
 | [0208-implement-trie-prefix-tree](https://github.com/JackCokebb/LeetCode/tree/master/0208-implement-trie-prefix-tree) |
 | [0355-design-twitter](https://github.com/JackCokebb/LeetCode/tree/master/0355-design-twitter) |
 | [0740-delete-and-earn](https://github.com/JackCokebb/LeetCode/tree/master/0740-delete-and-earn) |
+| [1087-longest-arithmetic-subsequence](https://github.com/JackCokebb/LeetCode/tree/master/1087-longest-arithmetic-subsequence) |
 | [1129-longest-string-chain](https://github.com/JackCokebb/LeetCode/tree/master/1129-longest-string-chain) |
 ## Topological Sort
 |  |
