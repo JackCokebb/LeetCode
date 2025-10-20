@@ -46,6 +46,7 @@
 | [0016-3sum-closest](https://github.com/JackCokebb/LeetCode/tree/master/0016-3sum-closest) |
 | [0045-jump-game-ii](https://github.com/JackCokebb/LeetCode/tree/master/0045-jump-game-ii) |
 | [0056-merge-intervals](https://github.com/JackCokebb/LeetCode/tree/master/0056-merge-intervals) |
+| [0073-set-matrix-zeroes](https://github.com/JackCokebb/LeetCode/tree/master/0073-set-matrix-zeroes) |
 | [0078-subsets](https://github.com/JackCokebb/LeetCode/tree/master/0078-subsets) |
 | [0120-triangle](https://github.com/JackCokebb/LeetCode/tree/master/0120-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/JackCokebb/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -170,6 +171,7 @@
 ## Hash Table
 |  |
 | ------- |
+| [0073-set-matrix-zeroes](https://github.com/JackCokebb/LeetCode/tree/master/0073-set-matrix-zeroes) |
 | [0146-lru-cache](https://github.com/JackCokebb/LeetCode/tree/master/0146-lru-cache) |
 | [0208-implement-trie-prefix-tree](https://github.com/JackCokebb/LeetCode/tree/master/0208-implement-trie-prefix-tree) |
 | [0355-design-twitter](https://github.com/JackCokebb/LeetCode/tree/master/0355-design-twitter) |
@@ -222,6 +224,7 @@
 ## Matrix
 |  |
 | ------- |
+| [0073-set-matrix-zeroes](https://github.com/JackCokebb/LeetCode/tree/master/0073-set-matrix-zeroes) |
 | [0200-number-of-islands](https://github.com/JackCokebb/LeetCode/tree/master/0200-number-of-islands) |
 | [0221-maximal-square](https://github.com/JackCokebb/LeetCode/tree/master/0221-maximal-square) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/JackCokebb/LeetCode/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
