@@ -56,6 +56,7 @@
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/JackCokebb/LeetCode/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0399-evaluate-division](https://github.com/JackCokebb/LeetCode/tree/master/0399-evaluate-division) |
 | [0486-predict-the-winner](https://github.com/JackCokebb/LeetCode/tree/master/0486-predict-the-winner) |
+| [0523-continuous-subarray-sum](https://github.com/JackCokebb/LeetCode/tree/master/0523-continuous-subarray-sum) |
 | [0526-beautiful-arrangement](https://github.com/JackCokebb/LeetCode/tree/master/0526-beautiful-arrangement) |
 | [0539-minimum-time-difference](https://github.com/JackCokebb/LeetCode/tree/master/0539-minimum-time-difference) |
 | [0740-delete-and-earn](https://github.com/JackCokebb/LeetCode/tree/master/0740-delete-and-earn) |
@@ -154,6 +155,7 @@
 | [0223-rectangle-area](https://github.com/JackCokebb/LeetCode/tree/master/0223-rectangle-area) |
 | [0343-integer-break](https://github.com/JackCokebb/LeetCode/tree/master/0343-integer-break) |
 | [0486-predict-the-winner](https://github.com/JackCokebb/LeetCode/tree/master/0486-predict-the-winner) |
+| [0523-continuous-subarray-sum](https://github.com/JackCokebb/LeetCode/tree/master/0523-continuous-subarray-sum) |
 | [0539-minimum-time-difference](https://github.com/JackCokebb/LeetCode/tree/master/0539-minimum-time-difference) |
 | [1761-count-sorted-vowel-strings](https://github.com/JackCokebb/LeetCode/tree/master/1761-count-sorted-vowel-strings) |
 ## Binary Search Tree
@@ -183,6 +185,7 @@
 | [0146-lru-cache](https://github.com/JackCokebb/LeetCode/tree/master/0146-lru-cache) |
 | [0208-implement-trie-prefix-tree](https://github.com/JackCokebb/LeetCode/tree/master/0208-implement-trie-prefix-tree) |
 | [0355-design-twitter](https://github.com/JackCokebb/LeetCode/tree/master/0355-design-twitter) |
+| [0523-continuous-subarray-sum](https://github.com/JackCokebb/LeetCode/tree/master/0523-continuous-subarray-sum) |
 | [0740-delete-and-earn](https://github.com/JackCokebb/LeetCode/tree/master/0740-delete-and-earn) |
 | [1087-longest-arithmetic-subsequence](https://github.com/JackCokebb/LeetCode/tree/master/1087-longest-arithmetic-subsequence) |
 | [1129-longest-string-chain](https://github.com/JackCokebb/LeetCode/tree/master/1129-longest-string-chain) |
@@ -277,4 +280,8 @@
 |  |
 | ------- |
 | [0208-implement-trie-prefix-tree](https://github.com/JackCokebb/LeetCode/tree/master/0208-implement-trie-prefix-tree) |
+## Prefix Sum
+|  |
+| ------- |
+| [0523-continuous-subarray-sum](https://github.com/JackCokebb/LeetCode/tree/master/0523-continuous-subarray-sum) |
 <!---LeetCode Topics End-->
