@@ -9,6 +9,7 @@
 | [0144-binary-tree-preorder-traversal](https://github.com/JackCokebb/LeetCode/tree/master/0144-binary-tree-preorder-traversal) |
 | [0173-binary-search-tree-iterator](https://github.com/JackCokebb/LeetCode/tree/master/0173-binary-search-tree-iterator) |
 | [0316-remove-duplicate-letters](https://github.com/JackCokebb/LeetCode/tree/master/0316-remove-duplicate-letters) |
+| [0921-minimum-add-to-make-parentheses-valid](https://github.com/JackCokebb/LeetCode/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/JackCokebb/LeetCode/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
 | [1802-number-of-students-unable-to-eat-lunch](https://github.com/JackCokebb/LeetCode/tree/master/1802-number-of-students-unable-to-eat-lunch) |
 ## Tree
@@ -82,6 +83,7 @@
 | [0451-sort-characters-by-frequency](https://github.com/JackCokebb/LeetCode/tree/master/0451-sort-characters-by-frequency) |
 | [0481-magical-string](https://github.com/JackCokebb/LeetCode/tree/master/0481-magical-string) |
 | [0539-minimum-time-difference](https://github.com/JackCokebb/LeetCode/tree/master/0539-minimum-time-difference) |
+| [0921-minimum-add-to-make-parentheses-valid](https://github.com/JackCokebb/LeetCode/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/JackCokebb/LeetCode/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
 | [1129-longest-string-chain](https://github.com/JackCokebb/LeetCode/tree/master/1129-longest-string-chain) |
 ## Breadth-First Search
@@ -209,6 +211,7 @@
 | ------- |
 | [0045-jump-game-ii](https://github.com/JackCokebb/LeetCode/tree/master/0045-jump-game-ii) |
 | [0316-remove-duplicate-letters](https://github.com/JackCokebb/LeetCode/tree/master/0316-remove-duplicate-letters) |
+| [0921-minimum-add-to-make-parentheses-valid](https://github.com/JackCokebb/LeetCode/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [1095-two-city-scheduling](https://github.com/JackCokebb/LeetCode/tree/master/1095-two-city-scheduling) |
 ## Queue
 |  |
