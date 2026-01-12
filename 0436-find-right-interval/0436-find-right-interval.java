@@ -6,17 +6,33 @@ class Solution {
         int[] result = new int[len];
         Arrays.fill(result, -1);
 
-        for (int i = 0 ;  i < len ; i++) {
+        int[][] sorted = new int[len][2];
+
+        for (int i = 0 ; i < len ; i++) {
+            sorted[i] = new int[]{intervals[i][0], i};
+        }
+
+        Arrays.sort(sorted, (a, b) -> a[0] - b[0]);
+
+        for (int i = 0 ; i < len ; i++) {
+            int left = 0;
+            int right = len - 1;
+            int mid = (left + right + 1) / 2;
+
             int iEnd = intervals[i][1];
-            for (int j = 0 ;  j < len ; j++) {
-                if (intervals[j][0] >= iEnd) {
-                    if (result[i] == -1) {
-                        result[i] = j;
-                    } else {
-                        if (intervals[result[i]][0] > intervals[j][0]) {
-                            result[i] = j;
-                        }
-                    }
+
+            while(left <= right) {
+                //System.out.println("i: " + i + ", iEnd: " + iEnd + ", left: " + left + ", right: " + right + ", mid: " + mid);
+                if (iEnd > sorted[mid][0]) {
+                    left = mid + 1;
+                    mid = (left + right + 1) / 2;
+                } else if (iEnd < sorted[mid][0]) {
+                    result[i] = sorted[mid][1];
+                    right = mid - 1;
+                    mid = (left + right + 1) / 2;
+                } else {
+                    result[i] = sorted[mid][1];
+                    break;
                 }
             }
         }
