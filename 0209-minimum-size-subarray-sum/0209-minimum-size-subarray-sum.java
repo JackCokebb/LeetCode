@@ -1,25 +1,33 @@
 class Solution {
     public int minSubArrayLen(int target, int[] nums) {
         
-        int left = 0;
-        int right = 0;
-        int minLen = 100001;
-        int currSum = nums[0];
-        int numsLen = nums.length;
+        int n = nums.length;
+        long[] prefix = new long[n + 1];
+        for (int i = 0; i < n; i++) {
+            prefix[i + 1] = prefix[i] + nums[i];
+        }
 
-        while(left <= right && right < numsLen) {
-            if(currSum >= target) {
-                minLen = Math.min(right - left + 1, minLen);
-                if(minLen == 1) return minLen;
-                currSum -= nums[left];
-                left += 1;
-            } else {
-                right += 1;
-                if(right >= numsLen) break;
-                currSum += nums[right];
+        int ans = Integer.MAX_VALUE;
+
+        for (int i = 0; i <= n; i++) {
+            long need = prefix[i] + target;
+            int j = lowerBound(prefix, need); // first index with prefix[j] >= need
+            if (j <= n) {
+                ans = Math.min(ans, j - i);
             }
         }
 
-        return minLen >= 100001 ? 0 : minLen;
+        return ans == Integer.MAX_VALUE ? 0 : ans;
+    }
+
+    // lower_bound on a sorted long[] array
+    private int lowerBound(long[] arr, long target) {
+        int lo = 0, hi = arr.length; // [lo, hi)
+        while (lo < hi) {
+            int mid = lo + (hi - lo) / 2;
+            if (arr[mid] >= target) hi = mid;
+            else lo = mid + 1;
+        }
+        return lo;
     }
 }
