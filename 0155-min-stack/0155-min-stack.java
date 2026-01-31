@@ -1,32 +1,28 @@
 class MinStack {
 
-    int minVal;
-    ArrayDeque<Integer> stack;
-    PriorityQueue<Integer> minHeap ;
+    List<int[]> stack;
 
     public MinStack() {
-        minVal = Integer.MAX_VALUE;
-        stack = new ArrayDeque<Integer>();
-        minHeap = new PriorityQueue<Integer>();
+        stack = new ArrayList<>();
     }
     
     public void push(int val) {
-        stack.addLast(val);
-        minHeap.add(val);
+        
+        int[] last = stack.isEmpty() ? new int[]{val, val} : stack.get(stack.size() - 1);
+        int minVal = last[1] > val ? val : last[1];
+        stack.add(new int[]{val, minVal});
     }
     
     public void pop() {
-        if (stack.peek() != null) {
-            minHeap.remove(stack.pollLast());
-        }
+        stack.remove(stack.size() - 1);
     }
     
     public int top() {
-        return stack.peekLast();
+        return stack.get(stack.size() - 1)[0];
     }
     
     public int getMin() {
-        return minHeap.peek();
+        return stack.get(stack.size() - 1)[1];
     }
 }
 
