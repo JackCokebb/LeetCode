@@ -58,6 +58,7 @@
 | [0209-minimum-size-subarray-sum](https://github.com/JackCokebb/LeetCode/tree/master/0209-minimum-size-subarray-sum) |
 | [0221-maximal-square](https://github.com/JackCokebb/LeetCode/tree/master/0221-maximal-square) |
 | [0284-peeking-iterator](https://github.com/JackCokebb/LeetCode/tree/master/0284-peeking-iterator) |
+| [0313-super-ugly-number](https://github.com/JackCokebb/LeetCode/tree/master/0313-super-ugly-number) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/JackCokebb/LeetCode/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0399-evaluate-division](https://github.com/JackCokebb/LeetCode/tree/master/0399-evaluate-division) |
 | [0435-non-overlapping-intervals](https://github.com/JackCokebb/LeetCode/tree/master/0435-non-overlapping-intervals) |
@@ -138,6 +139,7 @@
 | [0120-triangle](https://github.com/JackCokebb/LeetCode/tree/master/0120-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/JackCokebb/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0221-maximal-square](https://github.com/JackCokebb/LeetCode/tree/master/0221-maximal-square) |
+| [0313-super-ugly-number](https://github.com/JackCokebb/LeetCode/tree/master/0313-super-ugly-number) |
 | [0343-integer-break](https://github.com/JackCokebb/LeetCode/tree/master/0343-integer-break) |
 | [0435-non-overlapping-intervals](https://github.com/JackCokebb/LeetCode/tree/master/0435-non-overlapping-intervals) |
 | [0486-predict-the-winner](https://github.com/JackCokebb/LeetCode/tree/master/0486-predict-the-winner) |
@@ -168,6 +170,7 @@
 | [0007-reverse-integer](https://github.com/JackCokebb/LeetCode/tree/master/0007-reverse-integer) |
 | [0096-unique-binary-search-trees](https://github.com/JackCokebb/LeetCode/tree/master/0096-unique-binary-search-trees) |
 | [0223-rectangle-area](https://github.com/JackCokebb/LeetCode/tree/master/0223-rectangle-area) |
+| [0313-super-ugly-number](https://github.com/JackCokebb/LeetCode/tree/master/0313-super-ugly-number) |
 | [0343-integer-break](https://github.com/JackCokebb/LeetCode/tree/master/0343-integer-break) |
 | [0486-predict-the-winner](https://github.com/JackCokebb/LeetCode/tree/master/0486-predict-the-winner) |
 | [0523-continuous-subarray-sum](https://github.com/JackCokebb/LeetCode/tree/master/0523-continuous-subarray-sum) |
