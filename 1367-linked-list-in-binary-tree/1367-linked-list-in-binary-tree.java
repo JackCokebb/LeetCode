@@ -26,31 +26,13 @@
 class Solution {
     public boolean isSubPath(ListNode head, TreeNode root) {
 
-        Stack<TreeNode> stack = new Stack<>();
-        stack.add(root);
+        if(head == null) return true;
+        if(root == null) return false;
 
-        while (!stack.isEmpty()) {
-            TreeNode currNode = stack.pop();
-            
-            if (currNode.val == head.val) {
-                if (dps(head, head, currNode)) {
-                    return true;
-                }
-            }
-
-            if (currNode.left != null) {
-                stack.add(currNode.left);
-            }
-
-            if (currNode.right != null) {
-                stack.add(currNode.right);
-            }
-        }
-        
-        return false;
+        return dps(head, root) || isSubPath(head, root.left) || isSubPath(head, root.right);
     }
 
-    public boolean dps(ListNode head, ListNode refNode, TreeNode currNode) {
+    public boolean dps(ListNode refNode, TreeNode currNode) {
 
         if (refNode == null) {
             return true;
@@ -60,13 +42,10 @@ class Solution {
             return false;
         }
 
-        if (refNode.val == currNode.val) {
-            boolean leftResult = dps(head, refNode.next, currNode.left);
-            boolean rightResult = dps(head, refNode.next, currNode.right);
-
-            return leftResult || rightResult;
-        } else {
+        if (refNode.val != currNode.val) {
             return false;
-        }
+        } 
+
+        return dps(refNode.next, currNode.left) || dps(refNode.next, currNode.right);
     }
 }
