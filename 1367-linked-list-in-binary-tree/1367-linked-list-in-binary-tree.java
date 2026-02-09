@@ -1,35 +1,28 @@
-/**
- * Definition for singly-linked list.
- * public class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode() {}
- *     ListNode(int val) { this.val = val; }
- *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
- * }
- */
-/**
- * Definition for a binary tree node.
- * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode() {}
- *     TreeNode(int val) { this.val = val; }
- *     TreeNode(int val, TreeNode left, TreeNode right) {
- *         this.val = val;
- *         this.left = left;
- *         this.right = right;
- *     }
- * }
- */
 class Solution {
     public boolean isSubPath(ListNode head, TreeNode root) {
 
-        if(head == null) return true;
-        if(root == null) return false;
+        ArrayDeque<TreeNode> stack = new ArrayDeque<>();
+        stack.add(root);
 
-        return dps(head, root) || isSubPath(head, root.left) || isSubPath(head, root.right);
+        while (!stack.isEmpty()) {
+            TreeNode currNode = stack.pop();
+            
+            if (currNode.val == head.val) {
+                if (dps(head, currNode)) {
+                    return true;
+                }
+            }
+
+            if (currNode.left != null) {
+                stack.push(currNode.left);
+            }
+
+            if (currNode.right != null) {
+                stack.push(currNode.right);
+            }
+        }
+        
+        return false;
     }
 
     public boolean dps(ListNode refNode, TreeNode currNode) {
