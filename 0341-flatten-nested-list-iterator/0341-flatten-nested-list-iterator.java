@@ -17,37 +17,29 @@
  */
 public class NestedIterator implements Iterator<Integer> {
 
-    Stack<NestedInteger> stack;
+    Queue<Integer> queue;
 
     public NestedIterator(List<NestedInteger> nestedList) {
-        stack = new Stack<>();
-
-        for (int i = nestedList.size() - 1 ; i >=0 ; i--) {
-            stack.add(nestedList.get(i));
-        }
+        queue = new LinkedList<>();
+        flatten(nestedList, queue);
     }
 
     @Override
     public Integer next() {
-        return stack.pop().getInteger();
+        return queue.poll();
     }
 
     @Override
     public boolean hasNext() {
-        if (stack.isEmpty()) return false;
+        return !queue.isEmpty();
+    }
 
-        NestedInteger curr = stack.pop();
-        if (curr.isInteger()) {
-            stack.add(curr);
-            return true;
+    private void flatten(List<NestedInteger> cand, Queue queue) {
+
+        for (NestedInteger ni : cand) {
+            if (ni.isInteger()) queue.add(ni.getInteger());
+            else flatten(ni.getList(), queue);
         }
-
-        List<NestedInteger> currList = curr.getList();
-        for (int i = currList.size() - 1 ; i >=0 ; i--) {
-            stack.add(currList.get(i));
-        }
-
-        return hasNext();
     }
 }
 
