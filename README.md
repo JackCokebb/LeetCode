@@ -54,6 +54,7 @@
 | [0016-3sum-closest](https://github.com/JackCokebb/LeetCode/tree/master/0016-3sum-closest) |
 | [0040-combination-sum-ii](https://github.com/JackCokebb/LeetCode/tree/master/0040-combination-sum-ii) |
 | [0045-jump-game-ii](https://github.com/JackCokebb/LeetCode/tree/master/0045-jump-game-ii) |
+| [0053-maximum-subarray](https://github.com/JackCokebb/LeetCode/tree/master/0053-maximum-subarray) |
 | [0056-merge-intervals](https://github.com/JackCokebb/LeetCode/tree/master/0056-merge-intervals) |
 | [0073-set-matrix-zeroes](https://github.com/JackCokebb/LeetCode/tree/master/0073-set-matrix-zeroes) |
 | [0078-subsets](https://github.com/JackCokebb/LeetCode/tree/master/0078-subsets) |
@@ -140,6 +141,7 @@
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/JackCokebb/LeetCode/tree/master/0005-longest-palindromic-substring) |
 | [0045-jump-game-ii](https://github.com/JackCokebb/LeetCode/tree/master/0045-jump-game-ii) |
+| [0053-maximum-subarray](https://github.com/JackCokebb/LeetCode/tree/master/0053-maximum-subarray) |
 | [0072-edit-distance](https://github.com/JackCokebb/LeetCode/tree/master/0072-edit-distance) |
 | [0095-unique-binary-search-trees-ii](https://github.com/JackCokebb/LeetCode/tree/master/0095-unique-binary-search-trees-ii) |
 | [0096-unique-binary-search-trees](https://github.com/JackCokebb/LeetCode/tree/master/0096-unique-binary-search-trees) |
@@ -338,4 +340,8 @@
 |  |
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/JackCokebb/LeetCode/tree/master/0209-minimum-size-subarray-sum) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0053-maximum-subarray](https://github.com/JackCokebb/LeetCode/tree/master/0053-maximum-subarray) |
 <!---LeetCode Topics End-->
