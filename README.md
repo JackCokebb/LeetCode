@@ -67,6 +67,7 @@
 | [0284-peeking-iterator](https://github.com/JackCokebb/LeetCode/tree/master/0284-peeking-iterator) |
 | [0300-longest-increasing-subsequence](https://github.com/JackCokebb/LeetCode/tree/master/0300-longest-increasing-subsequence) |
 | [0313-super-ugly-number](https://github.com/JackCokebb/LeetCode/tree/master/0313-super-ugly-number) |
+| [0322-coin-change](https://github.com/JackCokebb/LeetCode/tree/master/0322-coin-change) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/JackCokebb/LeetCode/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0399-evaluate-division](https://github.com/JackCokebb/LeetCode/tree/master/0399-evaluate-division) |
 | [0435-non-overlapping-intervals](https://github.com/JackCokebb/LeetCode/tree/master/0435-non-overlapping-intervals) |
@@ -108,6 +109,7 @@
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/JackCokebb/LeetCode/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0200-number-of-islands](https://github.com/JackCokebb/LeetCode/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/JackCokebb/LeetCode/tree/master/0207-course-schedule) |
+| [0322-coin-change](https://github.com/JackCokebb/LeetCode/tree/master/0322-coin-change) |
 | [0399-evaluate-division](https://github.com/JackCokebb/LeetCode/tree/master/0399-evaluate-division) |
 | [0764-n-ary-tree-level-order-traversal](https://github.com/JackCokebb/LeetCode/tree/master/0764-n-ary-tree-level-order-traversal) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/JackCokebb/LeetCode/tree/master/1171-shortest-path-in-binary-matrix) |
@@ -150,6 +152,7 @@
 | [0221-maximal-square](https://github.com/JackCokebb/LeetCode/tree/master/0221-maximal-square) |
 | [0300-longest-increasing-subsequence](https://github.com/JackCokebb/LeetCode/tree/master/0300-longest-increasing-subsequence) |
 | [0313-super-ugly-number](https://github.com/JackCokebb/LeetCode/tree/master/0313-super-ugly-number) |
+| [0322-coin-change](https://github.com/JackCokebb/LeetCode/tree/master/0322-coin-change) |
 | [0343-integer-break](https://github.com/JackCokebb/LeetCode/tree/master/0343-integer-break) |
 | [0435-non-overlapping-intervals](https://github.com/JackCokebb/LeetCode/tree/master/0435-non-overlapping-intervals) |
 | [0486-predict-the-winner](https://github.com/JackCokebb/LeetCode/tree/master/0486-predict-the-winner) |
