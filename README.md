@@ -75,6 +75,7 @@
 | [0486-predict-the-winner](https://github.com/JackCokebb/LeetCode/tree/master/0486-predict-the-winner) |
 | [0523-continuous-subarray-sum](https://github.com/JackCokebb/LeetCode/tree/master/0523-continuous-subarray-sum) |
 | [0526-beautiful-arrangement](https://github.com/JackCokebb/LeetCode/tree/master/0526-beautiful-arrangement) |
+| [0528-random-pick-with-weight](https://github.com/JackCokebb/LeetCode/tree/master/0528-random-pick-with-weight) |
 | [0539-minimum-time-difference](https://github.com/JackCokebb/LeetCode/tree/master/0539-minimum-time-difference) |
 | [0740-delete-and-earn](https://github.com/JackCokebb/LeetCode/tree/master/0740-delete-and-earn) |
 | [0881-loud-and-rich](https://github.com/JackCokebb/LeetCode/tree/master/0881-loud-and-rich) |
@@ -187,6 +188,7 @@
 | [0343-integer-break](https://github.com/JackCokebb/LeetCode/tree/master/0343-integer-break) |
 | [0486-predict-the-winner](https://github.com/JackCokebb/LeetCode/tree/master/0486-predict-the-winner) |
 | [0523-continuous-subarray-sum](https://github.com/JackCokebb/LeetCode/tree/master/0523-continuous-subarray-sum) |
+| [0528-random-pick-with-weight](https://github.com/JackCokebb/LeetCode/tree/master/0528-random-pick-with-weight) |
 | [0539-minimum-time-difference](https://github.com/JackCokebb/LeetCode/tree/master/0539-minimum-time-difference) |
 | [1761-count-sorted-vowel-strings](https://github.com/JackCokebb/LeetCode/tree/master/1761-count-sorted-vowel-strings) |
 ## Binary Search Tree
@@ -199,6 +201,7 @@
 | [0300-longest-increasing-subsequence](https://github.com/JackCokebb/LeetCode/tree/master/0300-longest-increasing-subsequence) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/JackCokebb/LeetCode/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0436-find-right-interval](https://github.com/JackCokebb/LeetCode/tree/master/0436-find-right-interval) |
+| [0528-random-pick-with-weight](https://github.com/JackCokebb/LeetCode/tree/master/0528-random-pick-with-weight) |
 | [1087-longest-arithmetic-subsequence](https://github.com/JackCokebb/LeetCode/tree/master/1087-longest-arithmetic-subsequence) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/JackCokebb/LeetCode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 ## Linked List
@@ -331,6 +334,7 @@
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/JackCokebb/LeetCode/tree/master/0209-minimum-size-subarray-sum) |
 | [0523-continuous-subarray-sum](https://github.com/JackCokebb/LeetCode/tree/master/0523-continuous-subarray-sum) |
+| [0528-random-pick-with-weight](https://github.com/JackCokebb/LeetCode/tree/master/0528-random-pick-with-weight) |
 ## Bucket Sort
 |  |
 | ------- |
@@ -347,4 +351,8 @@
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/JackCokebb/LeetCode/tree/master/0053-maximum-subarray) |
+## Randomized
+|  |
+| ------- |
+| [0528-random-pick-with-weight](https://github.com/JackCokebb/LeetCode/tree/master/0528-random-pick-with-weight) |
 <!---LeetCode Topics End-->
