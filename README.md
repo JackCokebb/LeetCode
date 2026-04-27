@@ -101,6 +101,7 @@
 | [0451-sort-characters-by-frequency](https://github.com/JackCokebb/LeetCode/tree/master/0451-sort-characters-by-frequency) |
 | [0481-magical-string](https://github.com/JackCokebb/LeetCode/tree/master/0481-magical-string) |
 | [0539-minimum-time-difference](https://github.com/JackCokebb/LeetCode/tree/master/0539-minimum-time-difference) |
+| [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/JackCokebb/LeetCode/tree/master/0712-minimum-ascii-delete-sum-for-two-strings) |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/JackCokebb/LeetCode/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/JackCokebb/LeetCode/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
 | [1129-longest-string-chain](https://github.com/JackCokebb/LeetCode/tree/master/1129-longest-string-chain) |
@@ -159,6 +160,7 @@
 | [0486-predict-the-winner](https://github.com/JackCokebb/LeetCode/tree/master/0486-predict-the-winner) |
 | [0526-beautiful-arrangement](https://github.com/JackCokebb/LeetCode/tree/master/0526-beautiful-arrangement) |
 | [0688-knight-probability-in-chessboard](https://github.com/JackCokebb/LeetCode/tree/master/0688-knight-probability-in-chessboard) |
+| [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/JackCokebb/LeetCode/tree/master/0712-minimum-ascii-delete-sum-for-two-strings) |
 | [0740-delete-and-earn](https://github.com/JackCokebb/LeetCode/tree/master/0740-delete-and-earn) |
 | [1087-longest-arithmetic-subsequence](https://github.com/JackCokebb/LeetCode/tree/master/1087-longest-arithmetic-subsequence) |
 | [1129-longest-string-chain](https://github.com/JackCokebb/LeetCode/tree/master/1129-longest-string-chain) |
