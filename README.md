@@ -364,4 +364,8 @@
 |  |
 | ------- |
 | [0528-random-pick-with-weight](https://github.com/JackCokebb/LeetCode/tree/master/0528-random-pick-with-weight) |
+## Database
+|  |
+| ------- |
+| [0178-rank-scores](https://github.com/JackCokebb/LeetCode/tree/master/0178-rank-scores) |
 <!---LeetCode Topics End-->
