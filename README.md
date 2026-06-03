@@ -58,6 +58,7 @@
 | [0053-maximum-subarray](https://github.com/JackCokebb/LeetCode/tree/master/0053-maximum-subarray) |
 | [0056-merge-intervals](https://github.com/JackCokebb/LeetCode/tree/master/0056-merge-intervals) |
 | [0073-set-matrix-zeroes](https://github.com/JackCokebb/LeetCode/tree/master/0073-set-matrix-zeroes) |
+| [0074-search-a-2d-matrix](https://github.com/JackCokebb/LeetCode/tree/master/0074-search-a-2d-matrix) |
 | [0078-subsets](https://github.com/JackCokebb/LeetCode/tree/master/0078-subsets) |
 | [0120-triangle](https://github.com/JackCokebb/LeetCode/tree/master/0120-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/JackCokebb/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -199,6 +200,7 @@
 ## Binary Search Tree
 |  |
 | ------- |
+| [0074-search-a-2d-matrix](https://github.com/JackCokebb/LeetCode/tree/master/0074-search-a-2d-matrix) |
 | [0095-unique-binary-search-trees-ii](https://github.com/JackCokebb/LeetCode/tree/master/0095-unique-binary-search-trees-ii) |
 | [0096-unique-binary-search-trees](https://github.com/JackCokebb/LeetCode/tree/master/0096-unique-binary-search-trees) |
 | [0173-binary-search-tree-iterator](https://github.com/JackCokebb/LeetCode/tree/master/0173-binary-search-tree-iterator) |
@@ -289,6 +291,7 @@
 |  |
 | ------- |
 | [0073-set-matrix-zeroes](https://github.com/JackCokebb/LeetCode/tree/master/0073-set-matrix-zeroes) |
+| [0074-search-a-2d-matrix](https://github.com/JackCokebb/LeetCode/tree/master/0074-search-a-2d-matrix) |
 | [0200-number-of-islands](https://github.com/JackCokebb/LeetCode/tree/master/0200-number-of-islands) |
 | [0221-maximal-square](https://github.com/JackCokebb/LeetCode/tree/master/0221-maximal-square) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/JackCokebb/LeetCode/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
