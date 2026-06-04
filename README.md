@@ -79,6 +79,7 @@
 | [0526-beautiful-arrangement](https://github.com/JackCokebb/LeetCode/tree/master/0526-beautiful-arrangement) |
 | [0528-random-pick-with-weight](https://github.com/JackCokebb/LeetCode/tree/master/0528-random-pick-with-weight) |
 | [0539-minimum-time-difference](https://github.com/JackCokebb/LeetCode/tree/master/0539-minimum-time-difference) |
+| [0646-maximum-length-of-pair-chain](https://github.com/JackCokebb/LeetCode/tree/master/0646-maximum-length-of-pair-chain) |
 | [0740-delete-and-earn](https://github.com/JackCokebb/LeetCode/tree/master/0740-delete-and-earn) |
 | [0881-loud-and-rich](https://github.com/JackCokebb/LeetCode/tree/master/0881-loud-and-rich) |
 | [1087-longest-arithmetic-subsequence](https://github.com/JackCokebb/LeetCode/tree/master/1087-longest-arithmetic-subsequence) |
@@ -163,6 +164,7 @@
 | [0435-non-overlapping-intervals](https://github.com/JackCokebb/LeetCode/tree/master/0435-non-overlapping-intervals) |
 | [0486-predict-the-winner](https://github.com/JackCokebb/LeetCode/tree/master/0486-predict-the-winner) |
 | [0526-beautiful-arrangement](https://github.com/JackCokebb/LeetCode/tree/master/0526-beautiful-arrangement) |
+| [0646-maximum-length-of-pair-chain](https://github.com/JackCokebb/LeetCode/tree/master/0646-maximum-length-of-pair-chain) |
 | [0688-knight-probability-in-chessboard](https://github.com/JackCokebb/LeetCode/tree/master/0688-knight-probability-in-chessboard) |
 | [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/JackCokebb/LeetCode/tree/master/0712-minimum-ascii-delete-sum-for-two-strings) |
 | [0740-delete-and-earn](https://github.com/JackCokebb/LeetCode/tree/master/0740-delete-and-earn) |
@@ -180,6 +182,7 @@
 | [0436-find-right-interval](https://github.com/JackCokebb/LeetCode/tree/master/0436-find-right-interval) |
 | [0451-sort-characters-by-frequency](https://github.com/JackCokebb/LeetCode/tree/master/0451-sort-characters-by-frequency) |
 | [0539-minimum-time-difference](https://github.com/JackCokebb/LeetCode/tree/master/0539-minimum-time-difference) |
+| [0646-maximum-length-of-pair-chain](https://github.com/JackCokebb/LeetCode/tree/master/0646-maximum-length-of-pair-chain) |
 | [1095-two-city-scheduling](https://github.com/JackCokebb/LeetCode/tree/master/1095-two-city-scheduling) |
 | [1129-longest-string-chain](https://github.com/JackCokebb/LeetCode/tree/master/1129-longest-string-chain) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/JackCokebb/LeetCode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
@@ -257,6 +260,7 @@
 | [0134-gas-station](https://github.com/JackCokebb/LeetCode/tree/master/0134-gas-station) |
 | [0316-remove-duplicate-letters](https://github.com/JackCokebb/LeetCode/tree/master/0316-remove-duplicate-letters) |
 | [0435-non-overlapping-intervals](https://github.com/JackCokebb/LeetCode/tree/master/0435-non-overlapping-intervals) |
+| [0646-maximum-length-of-pair-chain](https://github.com/JackCokebb/LeetCode/tree/master/0646-maximum-length-of-pair-chain) |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/JackCokebb/LeetCode/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [1095-two-city-scheduling](https://github.com/JackCokebb/LeetCode/tree/master/1095-two-city-scheduling) |
 ## Queue
