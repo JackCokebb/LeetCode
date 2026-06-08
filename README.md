@@ -109,6 +109,7 @@
 | [0481-magical-string](https://github.com/JackCokebb/LeetCode/tree/master/0481-magical-string) |
 | [0539-minimum-time-difference](https://github.com/JackCokebb/LeetCode/tree/master/0539-minimum-time-difference) |
 | [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/JackCokebb/LeetCode/tree/master/0712-minimum-ascii-delete-sum-for-two-strings) |
+| [0763-partition-labels](https://github.com/JackCokebb/LeetCode/tree/master/0763-partition-labels) |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/JackCokebb/LeetCode/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/JackCokebb/LeetCode/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
 | [1129-longest-string-chain](https://github.com/JackCokebb/LeetCode/tree/master/1129-longest-string-chain) |
@@ -146,6 +147,7 @@
 | [0016-3sum-closest](https://github.com/JackCokebb/LeetCode/tree/master/0016-3sum-closest) |
 | [0165-compare-version-numbers](https://github.com/JackCokebb/LeetCode/tree/master/0165-compare-version-numbers) |
 | [0481-magical-string](https://github.com/JackCokebb/LeetCode/tree/master/0481-magical-string) |
+| [0763-partition-labels](https://github.com/JackCokebb/LeetCode/tree/master/0763-partition-labels) |
 | [1129-longest-string-chain](https://github.com/JackCokebb/LeetCode/tree/master/1129-longest-string-chain) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/JackCokebb/LeetCode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 ## Dynamic Programming
@@ -241,6 +243,7 @@
 | [0451-sort-characters-by-frequency](https://github.com/JackCokebb/LeetCode/tree/master/0451-sort-characters-by-frequency) |
 | [0523-continuous-subarray-sum](https://github.com/JackCokebb/LeetCode/tree/master/0523-continuous-subarray-sum) |
 | [0740-delete-and-earn](https://github.com/JackCokebb/LeetCode/tree/master/0740-delete-and-earn) |
+| [0763-partition-labels](https://github.com/JackCokebb/LeetCode/tree/master/0763-partition-labels) |
 | [1087-longest-arithmetic-subsequence](https://github.com/JackCokebb/LeetCode/tree/master/1087-longest-arithmetic-subsequence) |
 | [1129-longest-string-chain](https://github.com/JackCokebb/LeetCode/tree/master/1129-longest-string-chain) |
 ## Topological Sort
@@ -264,6 +267,7 @@
 | [0316-remove-duplicate-letters](https://github.com/JackCokebb/LeetCode/tree/master/0316-remove-duplicate-letters) |
 | [0435-non-overlapping-intervals](https://github.com/JackCokebb/LeetCode/tree/master/0435-non-overlapping-intervals) |
 | [0646-maximum-length-of-pair-chain](https://github.com/JackCokebb/LeetCode/tree/master/0646-maximum-length-of-pair-chain) |
+| [0763-partition-labels](https://github.com/JackCokebb/LeetCode/tree/master/0763-partition-labels) |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/JackCokebb/LeetCode/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [1095-two-city-scheduling](https://github.com/JackCokebb/LeetCode/tree/master/1095-two-city-scheduling) |
 ## Queue
