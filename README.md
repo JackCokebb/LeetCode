@@ -26,6 +26,7 @@
 | [0173-binary-search-tree-iterator](https://github.com/JackCokebb/LeetCode/tree/master/0173-binary-search-tree-iterator) |
 | [0341-flatten-nested-list-iterator](https://github.com/JackCokebb/LeetCode/tree/master/0341-flatten-nested-list-iterator) |
 | [0764-n-ary-tree-level-order-traversal](https://github.com/JackCokebb/LeetCode/tree/master/0764-n-ary-tree-level-order-traversal) |
+| [1026-maximum-difference-between-node-and-ancestor](https://github.com/JackCokebb/LeetCode/tree/master/1026-maximum-difference-between-node-and-ancestor) |
 | [1367-linked-list-in-binary-tree](https://github.com/JackCokebb/LeetCode/tree/master/1367-linked-list-in-binary-tree) |
 ## Depth-First Search
 |  |
@@ -39,6 +40,7 @@
 | [0399-evaluate-division](https://github.com/JackCokebb/LeetCode/tree/master/0399-evaluate-division) |
 | [0417-pacific-atlantic-water-flow](https://github.com/JackCokebb/LeetCode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0881-loud-and-rich](https://github.com/JackCokebb/LeetCode/tree/master/0881-loud-and-rich) |
+| [1026-maximum-difference-between-node-and-ancestor](https://github.com/JackCokebb/LeetCode/tree/master/1026-maximum-difference-between-node-and-ancestor) |
 | [1367-linked-list-in-binary-tree](https://github.com/JackCokebb/LeetCode/tree/master/1367-linked-list-in-binary-tree) |
 ## Binary Tree
 |  |
@@ -49,6 +51,7 @@
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/JackCokebb/LeetCode/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0144-binary-tree-preorder-traversal](https://github.com/JackCokebb/LeetCode/tree/master/0144-binary-tree-preorder-traversal) |
 | [0173-binary-search-tree-iterator](https://github.com/JackCokebb/LeetCode/tree/master/0173-binary-search-tree-iterator) |
+| [1026-maximum-difference-between-node-and-ancestor](https://github.com/JackCokebb/LeetCode/tree/master/1026-maximum-difference-between-node-and-ancestor) |
 | [1367-linked-list-in-binary-tree](https://github.com/JackCokebb/LeetCode/tree/master/1367-linked-list-in-binary-tree) |
 ## Array
 |  |
