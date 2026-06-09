@@ -1,25 +1,18 @@
 class Solution {
     public int removeDuplicates(int[] nums) {
-        int currNum = nums[0];
-        int count = 0;
-        int totalCounts = nums.length;
+        if (nums.length <= 2) {
+            return nums.length;
+        }
 
-        for (int i = 0 ; i < nums.length ; i++) {
-            
-            if (currNum == nums[i]) {
-                count++;
-
-                if (count > 2) {
-                    nums[i] = Integer.MAX_VALUE;
-                    totalCounts--;
-                }
-            } else {
-                currNum = nums[i];
-                count = 1;
+        int targetIdx = 2;
+        
+        for (int i = 2; i < nums.length; i++) {
+            if (nums[targetIdx - 2] != nums[i]) {
+                nums[targetIdx] = nums[i];
+                targetIdx++;
             }
         }
-        
-        Arrays.sort(nums);
-        return totalCounts;
+
+        return targetIdx;
     }
 }
