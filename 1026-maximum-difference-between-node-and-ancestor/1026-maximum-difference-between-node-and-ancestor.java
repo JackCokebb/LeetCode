@@ -14,28 +14,25 @@
  * }
  */
 class Solution {
+    int max = 0;
     public int maxAncestorDiff(TreeNode root) {
 
-        return goDeep(root, new ArrayList<>());
+        goDeep(root, root.val, root.val);
+        return max;
     }
     
-    private int goDeep(TreeNode node, ArrayList<Integer> list) {
-        int absMax = 0;
+    private void goDeep(TreeNode node, int currMax, int currMin) {
         
         if (node == null) {
-            int min = Integer.MAX_VALUE, max = 0;
-            for (int a : list) {
-                min = Math.min(a, min);
-                max = Math.max(a, max);
-            }
-            return Math.abs(max - min);
+            return;
         }
 
-        list.add(node.val);
-        absMax = Math.max(absMax, goDeep(node.left, list));
-        absMax = Math.max(absMax, goDeep(node.right, list));
-        list.remove(list.size() - 1);
+        currMax = Math.max(currMax, node.val);
+        currMin = Math.min(currMin, node.val);
 
-        return absMax;
+        max = Math.max(max, Math.abs(currMax - currMin));
+
+        goDeep(node.left, currMax, currMin);
+        goDeep(node.right, currMax, currMin);
     }
 }
