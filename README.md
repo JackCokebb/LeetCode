@@ -60,6 +60,7 @@
 | [0040-combination-sum-ii](https://github.com/JackCokebb/LeetCode/tree/master/0040-combination-sum-ii) |
 | [0045-jump-game-ii](https://github.com/JackCokebb/LeetCode/tree/master/0045-jump-game-ii) |
 | [0053-maximum-subarray](https://github.com/JackCokebb/LeetCode/tree/master/0053-maximum-subarray) |
+| [0055-jump-game](https://github.com/JackCokebb/LeetCode/tree/master/0055-jump-game) |
 | [0056-merge-intervals](https://github.com/JackCokebb/LeetCode/tree/master/0056-merge-intervals) |
 | [0073-set-matrix-zeroes](https://github.com/JackCokebb/LeetCode/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/JackCokebb/LeetCode/tree/master/0074-search-a-2d-matrix) |
@@ -161,6 +162,7 @@
 | [0005-longest-palindromic-substring](https://github.com/JackCokebb/LeetCode/tree/master/0005-longest-palindromic-substring) |
 | [0045-jump-game-ii](https://github.com/JackCokebb/LeetCode/tree/master/0045-jump-game-ii) |
 | [0053-maximum-subarray](https://github.com/JackCokebb/LeetCode/tree/master/0053-maximum-subarray) |
+| [0055-jump-game](https://github.com/JackCokebb/LeetCode/tree/master/0055-jump-game) |
 | [0072-edit-distance](https://github.com/JackCokebb/LeetCode/tree/master/0072-edit-distance) |
 | [0095-unique-binary-search-trees-ii](https://github.com/JackCokebb/LeetCode/tree/master/0095-unique-binary-search-trees-ii) |
 | [0096-unique-binary-search-trees](https://github.com/JackCokebb/LeetCode/tree/master/0096-unique-binary-search-trees) |
@@ -268,6 +270,7 @@
 |  |
 | ------- |
 | [0045-jump-game-ii](https://github.com/JackCokebb/LeetCode/tree/master/0045-jump-game-ii) |
+| [0055-jump-game](https://github.com/JackCokebb/LeetCode/tree/master/0055-jump-game) |
 | [0134-gas-station](https://github.com/JackCokebb/LeetCode/tree/master/0134-gas-station) |
 | [0316-remove-duplicate-letters](https://github.com/JackCokebb/LeetCode/tree/master/0316-remove-duplicate-letters) |
 | [0435-non-overlapping-intervals](https://github.com/JackCokebb/LeetCode/tree/master/0435-non-overlapping-intervals) |
