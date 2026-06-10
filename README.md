@@ -72,6 +72,7 @@
 | [0200-number-of-islands](https://github.com/JackCokebb/LeetCode/tree/master/0200-number-of-islands) |
 | [0209-minimum-size-subarray-sum](https://github.com/JackCokebb/LeetCode/tree/master/0209-minimum-size-subarray-sum) |
 | [0221-maximal-square](https://github.com/JackCokebb/LeetCode/tree/master/0221-maximal-square) |
+| [0238-product-of-array-except-self](https://github.com/JackCokebb/LeetCode/tree/master/0238-product-of-array-except-self) |
 | [0284-peeking-iterator](https://github.com/JackCokebb/LeetCode/tree/master/0284-peeking-iterator) |
 | [0300-longest-increasing-subsequence](https://github.com/JackCokebb/LeetCode/tree/master/0300-longest-increasing-subsequence) |
 | [0313-super-ugly-number](https://github.com/JackCokebb/LeetCode/tree/master/0313-super-ugly-number) |
@@ -363,6 +364,7 @@
 |  |
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/JackCokebb/LeetCode/tree/master/0209-minimum-size-subarray-sum) |
+| [0238-product-of-array-except-self](https://github.com/JackCokebb/LeetCode/tree/master/0238-product-of-array-except-self) |
 | [0523-continuous-subarray-sum](https://github.com/JackCokebb/LeetCode/tree/master/0523-continuous-subarray-sum) |
 | [0528-random-pick-with-weight](https://github.com/JackCokebb/LeetCode/tree/master/0528-random-pick-with-weight) |
 ## Bucket Sort
