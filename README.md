@@ -22,6 +22,7 @@
 | [0096-unique-binary-search-trees](https://github.com/JackCokebb/LeetCode/tree/master/0096-unique-binary-search-trees) |
 | [0098-validate-binary-search-tree](https://github.com/JackCokebb/LeetCode/tree/master/0098-validate-binary-search-tree) |
 | [0102-binary-tree-level-order-traversal](https://github.com/JackCokebb/LeetCode/tree/master/0102-binary-tree-level-order-traversal) |
+| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/JackCokebb/LeetCode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/JackCokebb/LeetCode/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/JackCokebb/LeetCode/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0144-binary-tree-preorder-traversal](https://github.com/JackCokebb/LeetCode/tree/master/0144-binary-tree-preorder-traversal) |
@@ -52,6 +53,7 @@
 | [0096-unique-binary-search-trees](https://github.com/JackCokebb/LeetCode/tree/master/0096-unique-binary-search-trees) |
 | [0098-validate-binary-search-tree](https://github.com/JackCokebb/LeetCode/tree/master/0098-validate-binary-search-tree) |
 | [0102-binary-tree-level-order-traversal](https://github.com/JackCokebb/LeetCode/tree/master/0102-binary-tree-level-order-traversal) |
+| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/JackCokebb/LeetCode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/JackCokebb/LeetCode/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/JackCokebb/LeetCode/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0144-binary-tree-preorder-traversal](https://github.com/JackCokebb/LeetCode/tree/master/0144-binary-tree-preorder-traversal) |
@@ -72,6 +74,7 @@
 | [0074-search-a-2d-matrix](https://github.com/JackCokebb/LeetCode/tree/master/0074-search-a-2d-matrix) |
 | [0078-subsets](https://github.com/JackCokebb/LeetCode/tree/master/0078-subsets) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/JackCokebb/LeetCode/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
+| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/JackCokebb/LeetCode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0120-triangle](https://github.com/JackCokebb/LeetCode/tree/master/0120-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/JackCokebb/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0134-gas-station](https://github.com/JackCokebb/LeetCode/tree/master/0134-gas-station) |
@@ -253,6 +256,7 @@
 |  |
 | ------- |
 | [0073-set-matrix-zeroes](https://github.com/JackCokebb/LeetCode/tree/master/0073-set-matrix-zeroes) |
+| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/JackCokebb/LeetCode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0146-lru-cache](https://github.com/JackCokebb/LeetCode/tree/master/0146-lru-cache) |
 | [0208-implement-trie-prefix-tree](https://github.com/JackCokebb/LeetCode/tree/master/0208-implement-trie-prefix-tree) |
 | [0355-design-twitter](https://github.com/JackCokebb/LeetCode/tree/master/0355-design-twitter) |
@@ -394,6 +398,7 @@
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/JackCokebb/LeetCode/tree/master/0053-maximum-subarray) |
+| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/JackCokebb/LeetCode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/JackCokebb/LeetCode/tree/master/0395-longest-substring-with-at-least-k-repeating-characters) |
 ## Randomized
 |  |
