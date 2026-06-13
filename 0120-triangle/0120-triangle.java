@@ -1,38 +1,24 @@
 class Solution {
     public int minimumTotal(List<List<Integer>> triangle) {
-        
-        int triSize = triangle.size();
-        int n = 0;
-        for (int i = 1 ; i <= triSize ; i++) {
-            n += i;
+        int maxDepth = triangle.size();
+        List<List<Integer>> dp = new ArrayList<>();
+
+        for (int i = 0; i < maxDepth; i++) {
+            dp.add(new ArrayList<>());
         }
 
-        int[] dp = new int[n + 1];
-
-        for (int i = 1 ; i <= triSize ; i++) {
-            int idx = getSumBeforeTarget(triSize);
-            dp[idx + i] = triangle.get(triSize - 1).get(i - 1);
+        for (int i : triangle.get(maxDepth - 1)) {
+            dp.get(maxDepth - 1).add(i);
         }
 
-        for (int i = triSize - 1 ; i > 0 ; i--) {
-            int idx = getSumBeforeTarget(i);
-            int nextRowIdx = getSumBeforeTarget(i + 1);
-
-            for (int j = 1 ; j <= i ; j++) {
-                dp[idx + j] = Math.min(dp[nextRowIdx + j], dp[nextRowIdx + j + 1]) + triangle.get(i - 1).get(j - 1);
+        for (int i =  maxDepth - 2; i >= 0; i--) {
+            List<Integer> curr = triangle.get(i);
+            List<Integer> prev = dp.get(i + 1);
+            for (int j = 0; j < curr.size(); j++) {
+                dp.get(i).add(Math.min(curr.get(j) + prev.get(j), curr.get(j) + prev.get(j + 1)));
             }
-
         }
 
-        return dp[1];
-    }
-
-    private int getSumBeforeTarget(int t) {
-        int n = 0;
-        for (int i = 1 ; i < t ; i++) {
-            n += i;
-        }
-
-        return n;
+        return dp.get(0).get(0);
     }
 }
