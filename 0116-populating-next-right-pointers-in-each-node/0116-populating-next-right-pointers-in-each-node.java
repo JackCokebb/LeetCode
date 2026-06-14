@@ -22,31 +22,20 @@ class Node {
 */
 
 class Solution {
-    Deque<Node> queue;
-
     public Node connect(Node root) {
-        if (root == null) return root;
-        
-        queue = new ArrayDeque<>();
-        queue.addLast(root);
+        recursive(root);
+        return root;
+    }
 
-        while (!queue.isEmpty()) {
-            int currQueueSize = queue.size();
-            Node prevNode = null;
+    private void recursive(Node root) {
+        if (root == null || root.left == null) return;
 
-            for (int i = 0; i < currQueueSize; i++) {
-                Node currNode = queue.pollFirst();
-                if (prevNode != null) prevNode.next = currNode;
-                prevNode = currNode;
-
-                if (currNode.left != null){
-                    queue.addLast(currNode.left);
-                    queue.addLast(currNode.right);
-                }   
-            }
-            prevNode = null;
+        root.left.next = root.right;
+        if (root.next != null) {
+            root.right.next = root.next.left;
         }
 
-        return root;
+        recursive(root.left);
+        recursive(root.right);
     }
 }
