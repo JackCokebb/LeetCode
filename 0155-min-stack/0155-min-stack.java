@@ -1,28 +1,29 @@
 class MinStack {
 
-    List<int[]> stack;
+    Deque<Integer> stack;
+    PriorityQueue<Integer> pq;
 
     public MinStack() {
-        stack = new ArrayList<>();
+        stack = new ArrayDeque<>();
+        pq = new PriorityQueue<>();
     }
     
     public void push(int value) {
-        int[] last = stack.isEmpty() ? new int[] {value, value} : stack.get(stack.size() - 1);
-        int minVal = last[1] > value ? value : last[1];
-        stack.add(new int[] {value, minVal});
+        stack.addFirst(value);
+        pq.add(value);
     }
     
     public void pop() {
-        stack.remove(stack.size() - 1);
+        int polled = stack.pollFirst();
+        pq.remove(polled);
     }
     
     public int top() {
-        return stack.get(stack.size() - 1)[0];
+        return stack.peekFirst();
     }
     
     public int getMin() {
-        return stack.get(stack.size() - 1)[1];
-        
+        return pq.peek();
     }
 }
 
