@@ -131,6 +131,7 @@
 | [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/JackCokebb/LeetCode/tree/master/0712-minimum-ascii-delete-sum-for-two-strings) |
 | [0763-partition-labels](https://github.com/JackCokebb/LeetCode/tree/master/0763-partition-labels) |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/JackCokebb/LeetCode/tree/master/0921-minimum-add-to-make-parentheses-valid) |
+| [1079-letter-tile-possibilities](https://github.com/JackCokebb/LeetCode/tree/master/1079-letter-tile-possibilities) |
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/JackCokebb/LeetCode/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
 | [1129-longest-string-chain](https://github.com/JackCokebb/LeetCode/tree/master/1129-longest-string-chain) |
 ## Breadth-First Search
@@ -272,6 +273,7 @@
 | [0523-continuous-subarray-sum](https://github.com/JackCokebb/LeetCode/tree/master/0523-continuous-subarray-sum) |
 | [0740-delete-and-earn](https://github.com/JackCokebb/LeetCode/tree/master/0740-delete-and-earn) |
 | [0763-partition-labels](https://github.com/JackCokebb/LeetCode/tree/master/0763-partition-labels) |
+| [1079-letter-tile-possibilities](https://github.com/JackCokebb/LeetCode/tree/master/1079-letter-tile-possibilities) |
 | [1087-longest-arithmetic-subsequence](https://github.com/JackCokebb/LeetCode/tree/master/1087-longest-arithmetic-subsequence) |
 | [1129-longest-string-chain](https://github.com/JackCokebb/LeetCode/tree/master/1129-longest-string-chain) |
 ## Topological Sort
@@ -287,6 +289,7 @@
 | [0093-restore-ip-addresses](https://github.com/JackCokebb/LeetCode/tree/master/0093-restore-ip-addresses) |
 | [0095-unique-binary-search-trees-ii](https://github.com/JackCokebb/LeetCode/tree/master/0095-unique-binary-search-trees-ii) |
 | [0526-beautiful-arrangement](https://github.com/JackCokebb/LeetCode/tree/master/0526-beautiful-arrangement) |
+| [1079-letter-tile-possibilities](https://github.com/JackCokebb/LeetCode/tree/master/1079-letter-tile-possibilities) |
 ## Greedy
 |  |
 | ------- |
@@ -397,6 +400,7 @@
 |  |
 | ------- |
 | [0451-sort-characters-by-frequency](https://github.com/JackCokebb/LeetCode/tree/master/0451-sort-characters-by-frequency) |
+| [1079-letter-tile-possibilities](https://github.com/JackCokebb/LeetCode/tree/master/1079-letter-tile-possibilities) |
 ## Sliding Window
 |  |
 | ------- |
