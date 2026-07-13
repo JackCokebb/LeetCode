@@ -1,42 +1,29 @@
 class Solution {
-    HashSet<String> result = new HashSet<>();
-
     public int numTilePossibilities(String tiles) {
+        int[] chars = new int[26];
+
         for (char c : tiles.toCharArray()) {
-            //System.out.println("ntpb: " + String.valueOf(c));
-            //printSet(result);
-            if (result.contains(String.valueOf(c))) {
-                continue;
-            }
-
-            makeCombination(String.valueOf(c), tiles.replaceFirst(String.valueOf(c), ""));
+            chars[c - 'A']++;
         }
 
-        return result.size();
+        return countAndBackTracking(chars);
     }
 
-    private void makeCombination(String s, String rest) {
-        //System.out.println("mc in: " + s);
-        //printSet(result);
-        if (result.contains(s)) {
-            return;
-        } else {
-            result.add(s);
+    private int countAndBackTracking(int[] chars) {
+
+        int count = 0;
+
+        for (int i = 0; i < 26; i++) {
+            if (chars[i] <= 0) continue;
+
+            chars[i]--;
+            count++;
+
+            count += countAndBackTracking(chars);
+
+            chars[i]++;
         }
 
-        for (char c : rest.toCharArray()) {
-            if (!result.contains(s + String.valueOf(c))) {
-                makeCombination(s + String.valueOf(c), rest.replaceFirst(String.valueOf(c), ""));
-            }
-        }
+        return count;
     }
-
-    // private void printSet(HashSet<String> set) {
-    //     System.out.println(
-    //         set.stream()
-    //         .sorted()
-    //         .map(String::valueOf)
-    //         .collect(java.util.stream.Collectors.joining(","))
-    //     );
-    // }
 }
