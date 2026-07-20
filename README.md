@@ -116,6 +116,7 @@
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/JackCokebb/LeetCode/tree/master/0005-longest-palindromic-substring) |
 | [0006-zigzag-conversion](https://github.com/JackCokebb/LeetCode/tree/master/0006-zigzag-conversion) |
+| [0012-integer-to-roman](https://github.com/JackCokebb/LeetCode/tree/master/0012-integer-to-roman) |
 | [0071-simplify-path](https://github.com/JackCokebb/LeetCode/tree/master/0071-simplify-path) |
 | [0072-edit-distance](https://github.com/JackCokebb/LeetCode/tree/master/0072-edit-distance) |
 | [0093-restore-ip-addresses](https://github.com/JackCokebb/LeetCode/tree/master/0093-restore-ip-addresses) |
@@ -222,6 +223,7 @@
 | ------- |
 | [0002-add-two-numbers](https://github.com/JackCokebb/LeetCode/tree/master/0002-add-two-numbers) |
 | [0007-reverse-integer](https://github.com/JackCokebb/LeetCode/tree/master/0007-reverse-integer) |
+| [0012-integer-to-roman](https://github.com/JackCokebb/LeetCode/tree/master/0012-integer-to-roman) |
 | [0096-unique-binary-search-trees](https://github.com/JackCokebb/LeetCode/tree/master/0096-unique-binary-search-trees) |
 | [0223-rectangle-area](https://github.com/JackCokebb/LeetCode/tree/master/0223-rectangle-area) |
 | [0313-super-ugly-number](https://github.com/JackCokebb/LeetCode/tree/master/0313-super-ugly-number) |
@@ -263,6 +265,7 @@
 ## Hash Table
 |  |
 | ------- |
+| [0012-integer-to-roman](https://github.com/JackCokebb/LeetCode/tree/master/0012-integer-to-roman) |
 | [0073-set-matrix-zeroes](https://github.com/JackCokebb/LeetCode/tree/master/0073-set-matrix-zeroes) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/JackCokebb/LeetCode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0146-lru-cache](https://github.com/JackCokebb/LeetCode/tree/master/0146-lru-cache) |
