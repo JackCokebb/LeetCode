@@ -102,6 +102,7 @@
 | [0526-beautiful-arrangement](https://github.com/JackCokebb/LeetCode/tree/master/0526-beautiful-arrangement) |
 | [0528-random-pick-with-weight](https://github.com/JackCokebb/LeetCode/tree/master/0528-random-pick-with-weight) |
 | [0539-minimum-time-difference](https://github.com/JackCokebb/LeetCode/tree/master/0539-minimum-time-difference) |
+| [0553-optimal-division](https://github.com/JackCokebb/LeetCode/tree/master/0553-optimal-division) |
 | [0646-maximum-length-of-pair-chain](https://github.com/JackCokebb/LeetCode/tree/master/0646-maximum-length-of-pair-chain) |
 | [0740-delete-and-earn](https://github.com/JackCokebb/LeetCode/tree/master/0740-delete-and-earn) |
 | [0881-loud-and-rich](https://github.com/JackCokebb/LeetCode/tree/master/0881-loud-and-rich) |
@@ -196,6 +197,7 @@
 | [0435-non-overlapping-intervals](https://github.com/JackCokebb/LeetCode/tree/master/0435-non-overlapping-intervals) |
 | [0486-predict-the-winner](https://github.com/JackCokebb/LeetCode/tree/master/0486-predict-the-winner) |
 | [0526-beautiful-arrangement](https://github.com/JackCokebb/LeetCode/tree/master/0526-beautiful-arrangement) |
+| [0553-optimal-division](https://github.com/JackCokebb/LeetCode/tree/master/0553-optimal-division) |
 | [0646-maximum-length-of-pair-chain](https://github.com/JackCokebb/LeetCode/tree/master/0646-maximum-length-of-pair-chain) |
 | [0688-knight-probability-in-chessboard](https://github.com/JackCokebb/LeetCode/tree/master/0688-knight-probability-in-chessboard) |
 | [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/JackCokebb/LeetCode/tree/master/0712-minimum-ascii-delete-sum-for-two-strings) |
@@ -233,6 +235,7 @@
 | [0523-continuous-subarray-sum](https://github.com/JackCokebb/LeetCode/tree/master/0523-continuous-subarray-sum) |
 | [0528-random-pick-with-weight](https://github.com/JackCokebb/LeetCode/tree/master/0528-random-pick-with-weight) |
 | [0539-minimum-time-difference](https://github.com/JackCokebb/LeetCode/tree/master/0539-minimum-time-difference) |
+| [0553-optimal-division](https://github.com/JackCokebb/LeetCode/tree/master/0553-optimal-division) |
 | [1761-count-sorted-vowel-strings](https://github.com/JackCokebb/LeetCode/tree/master/1761-count-sorted-vowel-strings) |
 ## Binary Search Tree
 |  |
