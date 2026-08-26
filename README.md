@@ -433,4 +433,8 @@
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/JackCokebb/LeetCode/tree/master/0215-kth-largest-element-in-an-array) |
+## Union-Find
+|  |
+| ------- |
+| [0200-number-of-islands](https://github.com/JackCokebb/LeetCode/tree/master/0200-number-of-islands) |
 <!---LeetCode Topics End-->
