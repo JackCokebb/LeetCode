@@ -171,6 +171,7 @@
 | [0005-longest-palindromic-substring](https://github.com/JackCokebb/LeetCode/tree/master/0005-longest-palindromic-substring) |
 | [0011-container-with-most-water](https://github.com/JackCokebb/LeetCode/tree/master/0011-container-with-most-water) |
 | [0016-3sum-closest](https://github.com/JackCokebb/LeetCode/tree/master/0016-3sum-closest) |
+| [0061-rotate-list](https://github.com/JackCokebb/LeetCode/tree/master/0061-rotate-list) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/JackCokebb/LeetCode/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0165-compare-version-numbers](https://github.com/JackCokebb/LeetCode/tree/master/0165-compare-version-numbers) |
 | [0481-magical-string](https://github.com/JackCokebb/LeetCode/tree/master/0481-magical-string) |
@@ -257,6 +258,7 @@
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/JackCokebb/LeetCode/tree/master/0002-add-two-numbers) |
+| [0061-rotate-list](https://github.com/JackCokebb/LeetCode/tree/master/0061-rotate-list) |
 | [0083-remove-duplicates-from-sorted-list](https://github.com/JackCokebb/LeetCode/tree/master/0083-remove-duplicates-from-sorted-list) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/JackCokebb/LeetCode/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/JackCokebb/LeetCode/tree/master/0116-populating-next-right-pointers-in-each-node) |
