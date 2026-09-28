@@ -232,6 +232,7 @@
 | [0007-reverse-integer](https://github.com/JackCokebb/LeetCode/tree/master/0007-reverse-integer) |
 | [0012-integer-to-roman](https://github.com/JackCokebb/LeetCode/tree/master/0012-integer-to-roman) |
 | [0096-unique-binary-search-trees](https://github.com/JackCokebb/LeetCode/tree/master/0096-unique-binary-search-trees) |
+| [0172-factorial-trailing-zeroes](https://github.com/JackCokebb/LeetCode/tree/master/0172-factorial-trailing-zeroes) |
 | [0223-rectangle-area](https://github.com/JackCokebb/LeetCode/tree/master/0223-rectangle-area) |
 | [0313-super-ugly-number](https://github.com/JackCokebb/LeetCode/tree/master/0313-super-ugly-number) |
 | [0343-integer-break](https://github.com/JackCokebb/LeetCode/tree/master/0343-integer-break) |
